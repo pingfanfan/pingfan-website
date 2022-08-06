@@ -1,0 +1,6 @@
+[submodule "themes/dillonzq"]
+	path = themes/dillonzq
+	url = https://github.com/dillonzq/LoveIt
+[submodule "themes/hugo-paper"]
+	path = themes/hugo-paper
+	url = https://github.com/nanxiaobei/hugo-paper
