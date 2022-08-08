@@ -1,7 +1,22 @@
 baseURL = 'https://jzxywpf.github.io/blog/'
 languageCode = 'en-us'
 title = 'Pingfan'
-theme = "dillonzq"
+theme = "hugo-paper"
 [taxonomies]
   tag = "tags"
   category = "categories"
+
+
+[menu]
+[[menu.main]]
+  identifier = 'about'
+  name = 'about hugo'
+  pre = "<i class='fa fa-heart'></i>"
+  url = '/about/'
+  weight = -110
+[[menu.main]]
+  name = 'IELTS'
+  post = "<span class='alert'>IELTS!</span>"
+  pre = "<i class='fa fa-road'></i>"
+  url = 'posts/ielts/'
+  weight = -100
