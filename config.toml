@@ -12,11 +12,18 @@ theme = "hugo-paper"
   identifier = 'about'
   name = 'about hugo'
   pre = "<i class='fa fa-heart'></i>"
-  url = '/about/'
+  url = '/Pingfan/Pingfan'
   weight = -110
 [[menu.main]]
-  name = 'IELTS'
+  name = '英语'
   post = "<span class='alert'>IELTS!</span>"
   pre = "<i class='fa fa-road'></i>"
   url = 'posts/ielts/'
+  weight = -100
+
+[[menu.main]]
+  name = '计算机'
+  post = "<span class='alert'>IELTS!</span>"
+  pre = "<i class='fa fa-road'></i>"
+  url = '/about/'
   weight = -100
