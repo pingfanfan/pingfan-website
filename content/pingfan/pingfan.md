@@ -1,8 +1,8 @@
 
 
 
-# 知乎ID：平凡
-[平凡](https://www.baidu.com/)
+# 知乎ID：[平凡](https://www.zhihu.com/people/jzwa)
+
 
 
 
