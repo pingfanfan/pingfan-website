@@ -1,7 +1,7 @@
 ---
 title: "Tecent_cloud"
 date: 2022-08-13T12:25:08+01:00
-draft: true
+draft: false
 ---
 
 
@@ -17,7 +17,7 @@ draft: true
 
 这时候除非你老板给你掏钱买机器，要么你自费买，前者得老板发善心，后者往往一下子掏不起。
 
-![](2022-08-13-12-34-19.png)
+![figure1](https://github.com/jzxywpf/blog/blob/main/content/posts/CS/2022-08-13-12-34-19.png)
 
 那是不是就没办法解决了，其实也有，那就是用云服务器跑深度学习。
 
