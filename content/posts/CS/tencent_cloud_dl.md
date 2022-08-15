@@ -53,11 +53,11 @@ draft: true
 
 # 进入云服务器并安装必要的驱动以及软件
 
-1. CUDA 
-2. 显卡驱动
+1. 显卡驱动
+2. CUDA
 3. cuDNN驱动
 4. Pytorch
-5. Pycharm安装
+5. Pycharm
 
 至于如何安装以上，我是按照这篇文章的，非常详细，强力推荐。
 https://cloud.tencent.com/developer/article/2003361?from=article.detail.1979035
