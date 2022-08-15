@@ -1,4 +1,4 @@
-baseURL = 'https://jzxywpf.github.io/blog/'
+baseURL = 'https://www.pingfan.me/blog/'
 languageCode = 'en-us'
 title = 'Pingfan'
 theme = "hugo-paper"
