@@ -10,7 +10,7 @@ theme = "hugo-paper"
 [menu]
 [[menu.main]]
   identifier = 'about'
-  name = 'about hugo'
+  name = 'about'
   pre = "<i class='fa fa-heart'></i>"
   url = '/Pingfan/Pingfan'
   weight = -110
