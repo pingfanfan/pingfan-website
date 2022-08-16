@@ -1,4 +1,4 @@
-baseURL = 'https://pingfan.me/blog/'
+baseURL = 'https://pingfan.me/'
 languageCode = 'en-us'
 title = 'Pingfan'
 theme = "hugo-paper"
