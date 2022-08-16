@@ -18,19 +18,19 @@ theme = "hugo-paper"
   name = '英语'
   post = "<span class='alert'>IELTS!</span>"
   pre = "<i class='fa fa-road'></i>"
-  url = 'posts/ielts/'
+  url = 'posts/CS'
   weight = -100
 
 [[menu.main]]
   name = '计算机'
   post = "<span class='alert'>IELTS!</span>"
   pre = "<i class='fa fa-road'></i>"
-  url = '/about/'
+  url = '/about'
   weight = -100
 
 [[menu.main]]
   name = '日记'
   post = "<span class='alert'>IELTS!</span>"
   pre = "<i class='fa fa-road'></i>"
-  url = '/diary/'
+  url = '/diary/10-Aug-2022/'
   weight = -100
