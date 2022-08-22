@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html class="not-ready text-sm lg:text-base" lang="en-us">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  
+  <title>没有GPU怎么做深度学习 - Pingfan</title>
+
+  
+  <meta name="theme-color" />
+  
+  <meta name="description" content="实验室一块GPU都没有怎么做深度学习？
+看情况，深度学习也分情况的。
+深度学习可以理解为深度神经网络进行机器学习，而深度神经网络的定义并不都是上百层才算，理论上来说，4层以上或者含有两个隐藏层的网络结构就可以称之为深度。
+如果是层数不多的情况下，CPU也是可以跑的，慢就慢点吧。
+不过在很多的情况下，比如说计算机视觉CV类型的，层数动不动几十上百层，数据集动不动几十个G甚至更大，这种情况必须得用GPU，还得好几块，同时还得搭配容量更大的内存。
+这时候除非你老板给你掏钱买机器，要么你自费买，前者得老板发善心，后者往往一下子掏不起。
+那是不是就没办法解决了，其实也有，那就是用云服务器跑深度学习。
+其实这个很好理解，不是所有人都跑过深度学习，但我相信没几个人没用过Office三件套，也就是word，excel和ppt。
+以前我们用的word都得下一个安装包很大的软件，然后打开输入；现在呢，打开office 365，里面不仅有word，还有excel，ppt，onedrive等等。
+就比如说word，完全不需要下载软件，在网页上可以直接编辑，这就意味着什么，你可以拜托掉必须要在电脑上才可以办公。
+只有有一个可以打开网页的设备，你就可以查看或者修改你的文件，同时你的文件也都保存在云端。
+这样也有巨大的好处，比如以前你出门需要带个U盘，但是忘了带或者坏了就完蛋了，但是云端的好处就是几乎不会丢，还用担心存储设备会坏掉。
+那我要说的云服务器跑深度学习也是这个道理。
+我们在本地跑深度学习的原理是什么？
+可以从这个图中看到，我们缺的就是计算资源，本地的计算资源就是GPU显卡，太贵了，买不起！
+但是计算资源是抽象的，你管它是从GPU来的，还是别的地方来的。
+这时候云计算资源就有用处了，我们可以用云计算资源来跑深度学习，只不过我们需要把数据和环境在云环境中配置一下，其余都是一样的，同时，我们还可以摆脱大块头电脑，仅仅需要一个带有浏览器的设备就可以跑深度学习。
+我用过两个云服务器跑深度学习，一个是colab，也就是google推出的那个，好处多多，但坏处有一个，也很致命，那就是我推荐给不少人之后，发现他们压根打不开，或者访问速度很慢，在国内的同学我其实不是很推荐。
+另一个就是腾讯云服务器，这个是之前搞活动的时候我看到有免费赠送的云服务器，我就去白嫖了一段时间。
+现在这个白嫖活动好像结束了，但是有类似的活动，一块钱用15天，其实也相当于是免费的。
+【腾讯云】多款云产品1折起，买云服务器送免费机器，最长免费续3个月
+https://cloud.tencent.com/act/cps/redirect?redirect=2446&amp;cps_key=e743b84aa5dbd1d87fc3965e46050a69&amp;from=console
+至于如何用腾讯云跑深度学习，这篇文章一步步的介绍了这个过程，包括了购买、使用以及准备深度学习的过程。" />
+  <meta name="author" content="" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="https://pingfan.me/main.min.css" />
+
+  
+  <script
+    defer
+    src="https://pingfan.me/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+  
+
+  
+  
+  
+  <link
+    rel="preload"
+    as="image"
+    href="https://pingfan.me/theme.png"
+  />
+
+  
+  
+  
+  
+
+  
+
+  
+  <link rel="icon" href="https://pingfan.me/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://pingfan.me/apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.101.0" />
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:title" content="没有GPU怎么做深度学习" />
+<meta property="og:description" content="实验室一块GPU都没有怎么做深度学习？
+看情况，深度学习也分情况的。
+深度学习可以理解为深度神经网络进行机器学习，而深度神经网络的定义并不都是上百层才算，理论上来说，4层以上或者含有两个隐藏层的网络结构就可以称之为深度。
+如果是层数不多的情况下，CPU也是可以跑的，慢就慢点吧。
+不过在很多的情况下，比如说计算机视觉CV类型的，层数动不动几十上百层，数据集动不动几十个G甚至更大，这种情况必须得用GPU，还得好几块，同时还得搭配容量更大的内存。
+这时候除非你老板给你掏钱买机器，要么你自费买，前者得老板发善心，后者往往一下子掏不起。
+那是不是就没办法解决了，其实也有，那就是用云服务器跑深度学习。
+其实这个很好理解，不是所有人都跑过深度学习，但我相信没几个人没用过Office三件套，也就是word，excel和ppt。
+以前我们用的word都得下一个安装包很大的软件，然后打开输入；现在呢，打开office 365，里面不仅有word，还有excel，ppt，onedrive等等。
+就比如说word，完全不需要下载软件，在网页上可以直接编辑，这就意味着什么，你可以拜托掉必须要在电脑上才可以办公。
+只有有一个可以打开网页的设备，你就可以查看或者修改你的文件，同时你的文件也都保存在云端。
+这样也有巨大的好处，比如以前你出门需要带个U盘，但是忘了带或者坏了就完蛋了，但是云端的好处就是几乎不会丢，还用担心存储设备会坏掉。
+那我要说的云服务器跑深度学习也是这个道理。
+我们在本地跑深度学习的原理是什么？
+可以从这个图中看到，我们缺的就是计算资源，本地的计算资源就是GPU显卡，太贵了，买不起！
+但是计算资源是抽象的，你管它是从GPU来的，还是别的地方来的。
+这时候云计算资源就有用处了，我们可以用云计算资源来跑深度学习，只不过我们需要把数据和环境在云环境中配置一下，其余都是一样的，同时，我们还可以摆脱大块头电脑，仅仅需要一个带有浏览器的设备就可以跑深度学习。
+我用过两个云服务器跑深度学习，一个是colab，也就是google推出的那个，好处多多，但坏处有一个，也很致命，那就是我推荐给不少人之后，发现他们压根打不开，或者访问速度很慢，在国内的同学我其实不是很推荐。
+另一个就是腾讯云服务器，这个是之前搞活动的时候我看到有免费赠送的云服务器，我就去白嫖了一段时间。
+现在这个白嫖活动好像结束了，但是有类似的活动，一块钱用15天，其实也相当于是免费的。
+【腾讯云】多款云产品1折起，买云服务器送免费机器，最长免费续3个月
+https://cloud.tencent.com/act/cps/redirect?redirect=2446&amp;cps_key=e743b84aa5dbd1d87fc3965e46050a69&amp;from=console
+至于如何用腾讯云跑深度学习，这篇文章一步步的介绍了这个过程，包括了购买、使用以及准备深度学习的过程。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://pingfan.me/posts/cs/tecent_cloud/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-08-13T12:25:08+01:00" />
+<meta property="article:modified_time" content="2022-08-13T12:25:08+01:00" />
+
+
+  
+  <meta itemprop="name" content="没有GPU怎么做深度学习">
+<meta itemprop="description" content="实验室一块GPU都没有怎么做深度学习？
+看情况，深度学习也分情况的。
+深度学习可以理解为深度神经网络进行机器学习，而深度神经网络的定义并不都是上百层才算，理论上来说，4层以上或者含有两个隐藏层的网络结构就可以称之为深度。
+如果是层数不多的情况下，CPU也是可以跑的，慢就慢点吧。
+不过在很多的情况下，比如说计算机视觉CV类型的，层数动不动几十上百层，数据集动不动几十个G甚至更大，这种情况必须得用GPU，还得好几块，同时还得搭配容量更大的内存。
+这时候除非你老板给你掏钱买机器，要么你自费买，前者得老板发善心，后者往往一下子掏不起。
+那是不是就没办法解决了，其实也有，那就是用云服务器跑深度学习。
+其实这个很好理解，不是所有人都跑过深度学习，但我相信没几个人没用过Office三件套，也就是word，excel和ppt。
+以前我们用的word都得下一个安装包很大的软件，然后打开输入；现在呢，打开office 365，里面不仅有word，还有excel，ppt，onedrive等等。
+就比如说word，完全不需要下载软件，在网页上可以直接编辑，这就意味着什么，你可以拜托掉必须要在电脑上才可以办公。
+只有有一个可以打开网页的设备，你就可以查看或者修改你的文件，同时你的文件也都保存在云端。
+这样也有巨大的好处，比如以前你出门需要带个U盘，但是忘了带或者坏了就完蛋了，但是云端的好处就是几乎不会丢，还用担心存储设备会坏掉。
+那我要说的云服务器跑深度学习也是这个道理。
+我们在本地跑深度学习的原理是什么？
+可以从这个图中看到，我们缺的就是计算资源，本地的计算资源就是GPU显卡，太贵了，买不起！
+但是计算资源是抽象的，你管它是从GPU来的，还是别的地方来的。
+这时候云计算资源就有用处了，我们可以用云计算资源来跑深度学习，只不过我们需要把数据和环境在云环境中配置一下，其余都是一样的，同时，我们还可以摆脱大块头电脑，仅仅需要一个带有浏览器的设备就可以跑深度学习。
+我用过两个云服务器跑深度学习，一个是colab，也就是google推出的那个，好处多多，但坏处有一个，也很致命，那就是我推荐给不少人之后，发现他们压根打不开，或者访问速度很慢，在国内的同学我其实不是很推荐。
+另一个就是腾讯云服务器，这个是之前搞活动的时候我看到有免费赠送的云服务器，我就去白嫖了一段时间。
+现在这个白嫖活动好像结束了，但是有类似的活动，一块钱用15天，其实也相当于是免费的。
+【腾讯云】多款云产品1折起，买云服务器送免费机器，最长免费续3个月
+https://cloud.tencent.com/act/cps/redirect?redirect=2446&amp;cps_key=e743b84aa5dbd1d87fc3965e46050a69&amp;from=console
+至于如何用腾讯云跑深度学习，这篇文章一步步的介绍了这个过程，包括了购买、使用以及准备深度学习的过程。"><meta itemprop="datePublished" content="2022-08-13T12:25:08+01:00" />
+<meta itemprop="dateModified" content="2022-08-13T12:25:08+01:00" />
+<meta itemprop="wordCount" content="24">
+<meta itemprop="keywords" content="" />
+  
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="没有GPU怎么做深度学习"/>
+<meta name="twitter:description" content="实验室一块GPU都没有怎么做深度学习？
+看情况，深度学习也分情况的。
+深度学习可以理解为深度神经网络进行机器学习，而深度神经网络的定义并不都是上百层才算，理论上来说，4层以上或者含有两个隐藏层的网络结构就可以称之为深度。
+如果是层数不多的情况下，CPU也是可以跑的，慢就慢点吧。
+不过在很多的情况下，比如说计算机视觉CV类型的，层数动不动几十上百层，数据集动不动几十个G甚至更大，这种情况必须得用GPU，还得好几块，同时还得搭配容量更大的内存。
+这时候除非你老板给你掏钱买机器，要么你自费买，前者得老板发善心，后者往往一下子掏不起。
+那是不是就没办法解决了，其实也有，那就是用云服务器跑深度学习。
+其实这个很好理解，不是所有人都跑过深度学习，但我相信没几个人没用过Office三件套，也就是word，excel和ppt。
+以前我们用的word都得下一个安装包很大的软件，然后打开输入；现在呢，打开office 365，里面不仅有word，还有excel，ppt，onedrive等等。
+就比如说word，完全不需要下载软件，在网页上可以直接编辑，这就意味着什么，你可以拜托掉必须要在电脑上才可以办公。
+只有有一个可以打开网页的设备，你就可以查看或者修改你的文件，同时你的文件也都保存在云端。
+这样也有巨大的好处，比如以前你出门需要带个U盘，但是忘了带或者坏了就完蛋了，但是云端的好处就是几乎不会丢，还用担心存储设备会坏掉。
+那我要说的云服务器跑深度学习也是这个道理。
+我们在本地跑深度学习的原理是什么？
+可以从这个图中看到，我们缺的就是计算资源，本地的计算资源就是GPU显卡，太贵了，买不起！
+但是计算资源是抽象的，你管它是从GPU来的，还是别的地方来的。
+这时候云计算资源就有用处了，我们可以用云计算资源来跑深度学习，只不过我们需要把数据和环境在云环境中配置一下，其余都是一样的，同时，我们还可以摆脱大块头电脑，仅仅需要一个带有浏览器的设备就可以跑深度学习。
+我用过两个云服务器跑深度学习，一个是colab，也就是google推出的那个，好处多多，但坏处有一个，也很致命，那就是我推荐给不少人之后，发现他们压根打不开，或者访问速度很慢，在国内的同学我其实不是很推荐。
+另一个就是腾讯云服务器，这个是之前搞活动的时候我看到有免费赠送的云服务器，我就去白嫖了一段时间。
+现在这个白嫖活动好像结束了，但是有类似的活动，一块钱用15天，其实也相当于是免费的。
+【腾讯云】多款云产品1折起，买云服务器送免费机器，最长免费续3个月
+https://cloud.tencent.com/act/cps/redirect?redirect=2446&amp;cps_key=e743b84aa5dbd1d87fc3965e46050a69&amp;from=console
+至于如何用腾讯云跑深度学习，这篇文章一步步的介绍了这个过程，包括了购买、使用以及准备深度学习的过程。"/>
+
+  
+  
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header class="mx-auto flex h-[5rem] max-w-3xl px-8 lg:justify-center">
+  <div class="relative z-50 mr-auto flex items-center">
+    <a class="-translate-x-[1px] -translate-y-0.5 text-3xl font-bold" href="https://pingfan.me/"
+      >Pingfan</a
+    >
+    <a
+      class="btn-dark ml-6 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+    ></a>
+  </div>
+
+  <a
+    class="btn-menu relative z-50 -mr-8 flex h-[5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+  ></a>
+
+  <script>
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => htmlClass.remove('not-ready'), 10);
+
+    const setDark = (newDark) => {
+      metaTheme.setAttribute('content', newDark ? '#000' : '#fbfbfb');
+      htmlClass[newDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', newDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkVal = localStorage.getItem('dark');
+    setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
+    
+    
+    <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-6">
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/pingfan/pingfan"
+        >about</a
+      >
+      
+    </nav>
+    
+
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-10rem)] max-w-3xl px-8 pt-20 pb-32 dark:prose-invert"
+    >
+      
+
+<article>
+  <header class="mb-20">
+    <h1 class="!my-0 pb-2.5">没有GPU怎么做深度学习</h1>
+
+    
+    <div class="text-sm opacity-60">
+      
+      <time>Aug 13, 2022</time>
+      
+      
+    </div>
+    
+  </header>
+
+  <section><p>实验室一块GPU都没有怎么做深度学习？</p>
+<p>看情况，深度学习也分情况的。</p>
+<p>深度学习可以理解为深度神经网络进行机器学习，而深度神经网络的定义并不都是上百层才算，理论上来说，4层以上或者含有两个隐藏层的网络结构就可以称之为深度。</p>
+<p>如果是层数不多的情况下，CPU也是可以跑的，慢就慢点吧。</p>
+<p>不过在很多的情况下，比如说计算机视觉CV类型的，层数动不动几十上百层，数据集动不动几十个G甚至更大，这种情况必须得用GPU，还得好几块，同时还得搭配容量更大的内存。</p>
+<p>这时候除非你老板给你掏钱买机器，要么你自费买，前者得老板发善心，后者往往一下子掏不起。</p>
+<p><img src="https://www.pingfan.me/blog/static/images/tencent/2022-08-13-12-34-19.png" alt="figure1"></p>
+<p>那是不是就没办法解决了，其实也有，那就是用云服务器跑深度学习。</p>
+<p>其实这个很好理解，不是所有人都跑过深度学习，但我相信没几个人没用过Office三件套，也就是word，excel和ppt。</p>
+<p>以前我们用的word都得下一个安装包很大的软件，然后打开输入；现在呢，打开office 365，里面不仅有word，还有excel，ppt，onedrive等等。</p>
+<p><img src="2022-08-13-12-43-20.png" alt=""></p>
+<p>就比如说word，完全不需要下载软件，在网页上可以直接编辑，这就意味着什么，你可以拜托掉必须要在电脑上才可以办公。</p>
+<p>只有有一个可以打开网页的设备，你就可以查看或者修改你的文件，同时你的文件也都保存在云端。</p>
+<p><img src="2022-08-13-12-48-02.png" alt=""></p>
+<p>这样也有巨大的好处，比如以前你出门需要带个U盘，但是忘了带或者坏了就完蛋了，但是云端的好处就是几乎不会丢，还用担心存储设备会坏掉。</p>
+<p>那我要说的云服务器跑深度学习也是这个道理。</p>
+<p>我们在本地跑深度学习的原理是什么？</p>
+<p>可以从这个图中看到，我们缺的就是计算资源，本地的计算资源就是GPU显卡，太贵了，买不起！</p>
+<p>但是计算资源是抽象的，你管它是从GPU来的，还是别的地方来的。</p>
+<p>这时候云计算资源就有用处了，我们可以用云计算资源来跑深度学习，只不过我们需要把数据和环境在云环境中配置一下，其余都是一样的，同时，我们还可以摆脱大块头电脑，仅仅需要一个带有浏览器的设备就可以跑深度学习。</p>
+<p><img src="deep_learning.jpg" alt=""></p>
+<p>我用过两个云服务器跑深度学习，一个是colab，也就是google推出的那个，好处多多，但坏处有一个，也很致命，那就是我推荐给不少人之后，发现他们压根打不开，或者访问速度很慢，在国内的同学我其实不是很推荐。</p>
+<p>另一个就是腾讯云服务器，这个是之前搞活动的时候我看到有免费赠送的云服务器，我就去白嫖了一段时间。</p>
+<p>现在这个白嫖活动好像结束了，但是有类似的活动，一块钱用15天，其实也相当于是免费的。</p>
+<p>【腾讯云】多款云产品1折起，买云服务器送免费机器，最长免费续3个月</p>
+<p><a href="https://cloud.tencent.com/act/cps/redirect?redirect=2446&amp;cps_key=e743b84aa5dbd1d87fc3965e46050a69&amp;from=console">https://cloud.tencent.com/act/cps/redirect?redirect=2446&amp;cps_key=e743b84aa5dbd1d87fc3965e46050a69&amp;from=console</a></p>
+<p>至于如何用腾讯云跑深度学习，这篇文章一步步的介绍了这个过程，包括了购买、使用以及准备深度学习的过程。</p>
+</section>
+
+  
+  
+
+  
+  
+  
+  <nav class="mt-24 flex rounded-lg bg-black/[3%] text-lg dark:bg-white/[8%]">
+    
+    
+    <a
+      class="ml-auto flex w-1/2 items-center justify-end p-6 pl-3 no-underline"
+      href="https://pingfan.me/posts/latex/"
+      ><span>Latex</span><span class="ml-1.5">→</span></a
+    >
+    
+  </nav>
+  
+
+  
+  
+</article>
+
+
+    </main>
+
+    <footer class="opaco mx-auto flex h-[5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-60">
+  <div class="mr-auto">
+    &copy; 2022
+    <a class="link" href="https://pingfan.me/">Pingfan</a>
+  </div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank">Powered by Hugo️️</a
+  >️
+  <a class="link" href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank"
+    >▷ Paper 6</a
+  >
+</footer>
+
+  </body>
+</html>
