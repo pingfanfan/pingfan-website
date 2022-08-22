@@ -15,4 +15,8 @@ ps：
 
 目录也有问题，估计也是路径的问题。
 
+图片测试
+
+![test](https://raw.githubusercontent.com/jzxywpf/pictures/main/tencent/2022-08-13-12-34-19.png)
+
 
