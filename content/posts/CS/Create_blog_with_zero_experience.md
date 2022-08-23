@@ -4,6 +4,9 @@ date: 2022-08-22T17:19:48+01:00
 draft: true
 ---
 
+![fff](https://raw.githubusercontent.com/jzxywpf/pictures/main/tencent/2022-08-13-12-34-19.png)
+
+
 写这篇文章的原因是在网上看了很多的教程，踩了不少的坑，更多的白费了很多功夫，也没招到一篇从头到尾完整有效的个人建站方法。
 
 有些教程年代久远，有些教程极为繁琐，有些教程压根跑不通。
