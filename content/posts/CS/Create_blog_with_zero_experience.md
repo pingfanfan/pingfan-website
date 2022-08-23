@@ -1,7 +1,7 @@
 ---
 title: "Create_blog_with_zero_experience"
 date: 2022-08-22T17:19:48+01:00
-draft: true
+draft: false
 ---
 
 ![fff](https://raw.githubusercontent.com/jzxywpf/pictures/main/tencent/2022-08-13-12-34-19.png)
