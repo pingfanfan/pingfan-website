@@ -1,5 +1,10 @@
-# 知乎ID：[平凡](https://www.zhihu.com/people/jzwa)
+知乎ID：[平凡](https://www.zhihu.com/people/jzwa)
 
+b站:[平凡pppf](https://space.bilibili.com/37552982)
+
+微博：[平凡ZhiH](https://weibo.com/u/7621278794)
+
+微信公众号：[平凡的科研生活]()
 
 
 
@@ -14,9 +19,5 @@ ps：
 现在图片还不能显示，估计是路径的问题。
 
 目录也有问题，估计也是路径的问题。
-
-图片测试
-
-![test](https://raw.githubusercontent.com/jzxywpf/pictures/main/tencent/2022-08-13-12-34-19.png)
 
 
