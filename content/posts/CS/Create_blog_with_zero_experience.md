@@ -1,10 +1,10 @@
 ---
 title: "Create_blog_with_zero_experience"
 date: 2022-08-22T17:19:48+01:00
-draft: false
+draft: true
 ---
 
-![fff](https://raw.githubusercontent.com/jzxywpf/pictures/main/tencent/2022-08-13-12-34-19.png)
+<!-- ![fff](https://raw.githubusercontent.com/jzxywpf/pictures/main/tencent/2022-08-13-12-34-19.png) -->
 
 
 写这篇文章的原因是在网上看了很多的教程，踩了不少的坑，更多的白费了很多功夫，也没招到一篇从头到尾完整有效的个人建站方法。
@@ -32,11 +32,19 @@ draft: false
 
 # 前置准备
 
+windows：git包管理，hugo预编译文件，Node.js, vscode(推荐)
+
+mac os： homebrew，git包管理，Node.js, vscode(推荐)
+
 ## 准备 hugo 环境
 
 我们用hugo来写个人博客
 
 windows：https://www.gohugo.org/doc/tutorials/installing-on-windows/
+
+https://www.andbible.com/post/hugo-install-windows/
+
+记得把hugo添加到环境变量中
 
 mac os：'brew install hugo' 
 
@@ -68,7 +76,7 @@ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/anan
 
 第三行：把主题改为annake
 
-echo 'theme = "ananke"' >> config.toml
+echo theme = "ananke" >> config.toml
 
 4. 写第一篇blog
 
@@ -96,6 +104,9 @@ hugo -D
 ## 使用云服务进行托管
 
 1. 首先你得有一个云服务空间，这里我使用的是腾讯云的cloudbase
+
+![腾讯云服务](https://curl.qcloud.com/ywYsIFMs)
+
 
 2. 创建好后得到了一个**环境ID**，待会儿要用到
 
