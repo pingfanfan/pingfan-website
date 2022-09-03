@@ -1,3 +1,18 @@
+---
+title: "About me"
+date: 2022-09-03
+draft: false
+description: ""
+images: [""]
+
+lightgallery: true
+
+math:
+  enable: true
+
+---
+
+
 知乎ID：[平凡](https://www.zhihu.com/people/jzwa)
 
 b站:[平凡pppf](https://space.bilibili.com/37552982)
@@ -19,5 +34,10 @@ ps：
 现在图片还不能显示，估计是路径的问题。
 
 目录也有问题，估计也是路径的问题。
+
+{{< admonition type=tip title="This is a tip" open=false >}}
+一个 **技巧** 横幅
+{{< /admonition >}}
+
 
 

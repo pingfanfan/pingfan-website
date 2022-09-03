@@ -2,6 +2,11 @@
 title: "没有GPU怎么做深度学习"
 date: 2022-08-13T12:25:08+01:00
 draft: false
+author: pingfan
+
+
+tags: ["GPU", "deep learning","AI"]
+categories: ["Computer Science"]
 ---
 
 

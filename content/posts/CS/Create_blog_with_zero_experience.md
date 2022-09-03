@@ -1,7 +1,8 @@
 ---
 title: "Create_blog_with_zero_experience"
 date: 2022-08-22T17:19:48+01:00
-draft: true
+draft: false
+author: pingfan
 ---
 
 <!-- ![fff](https://raw.githubusercontent.com/jzxywpf/pictures/main/tencent/2022-08-13-12-34-19.png) -->
@@ -40,7 +41,7 @@ mac os： homebrew，git包管理，Node.js, vscode(推荐)
 
 我们用hugo来写个人博客
 
-windows：https://www.gohugo.org/doc/tutorials/installing-on-windows/
+![windows](https://www.gohugo.org/doc/tutorials/installing-on-windows/)
 
 https://www.andbible.com/post/hugo-install-windows/
 
@@ -56,52 +57,57 @@ mac：找到Terminal
 
 ## 使用hugo创建一个blog项目
 
-1. hugo new site 功能来创建一个新的blog，pingfan-blog这个名字可以根据自己的需要改
-
+### hugo new site 功能来创建一个新的blog，pingfan-blog这个名字可以根据自己的需要改
+```bash
 hugo new site pingfan-blog
-
-2. cd pingfan-blog 进入刚刚创建好的博客地址中
-
+```
+### cd pingfan-blog 进入刚刚创建好的博客地址中
+```bash
 cd pingfan-blog
+```
 
-3. 给博客加个皮肤，一次复制+粘贴三行代码到命令行中
+### 给博客加个皮肤，一次复制+粘贴三行代码到命令行中
 
 第一行：把当前目录进行初始化
-
+```bash
 git init  
+```
 
 第二行：下载ananke主题，并存放在themes文件夹中
-
+```bash
 git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke  
+```
 
 第三行：把主题改为annake
 
+```bash
 echo theme = "ananke" >> config.toml
+```
 
 4. 写第一篇blog
 
 hugo new + aaa/bbb.md， aaa指代的是某一个文件夹，如果你想写美食和电影两种，那就是[美食/第一篇美食.md]，或者[电影/第一篇电影.md]，尽量都用字母，其次一定要加.md
-
+```bash
 hugo new life/first_day.md
-
+```
 5. 运行下博客看是否可行
-
+```bash
 hugo server
-
+```
 出现以下界面后，打开任意浏览器，输入http://localhost:1313 即可查看。
 
 浏览器中出现如下界面说明你成功了
 
 6. 生成静态文件，准备进一步托管
-
+```bash
 hugo -D
-
+```
 你可以去自己的文件目录中看到，public文件夹里面已经多了很多文件出来。
 
 
-# 静态网站托管服务
+## 静态网站托管服务
 
-## 使用云服务进行托管
+### 使用云服务进行托管
 
 1. 首先你得有一个云服务空间，这里我使用的是腾讯云的cloudbase
 
@@ -116,24 +122,26 @@ hugo -D
 
 在命令行中输入以下验证是否安装成功
 
+```bash
 npm -v
+```
 
 出现类似于6.14.13就表示成功了。
 
 4. 打开命令行，输入以下命令安装 cloudbase cli
-
+```bash
 npm install -g @cloudbase/cli
-
+```
 5. 登录云开发
-
+```bash
 tcb login
-
+```
 6. 在弹出的页面中单击**确认授权**进行授权：
 
 7. 执行以下命令，把public文件夹部署到云服务器上（把EnvID换成刚刚的**环境ID**）
-
+```bash
 cloudbase hosting deploy ./public  -e EnvID
-
+```
 8. 登录云开发控制台，进入静态网站托管页面，可以找到默认的域名，单击域名，就可以看到你的博客已经部署成功了。
 
 
@@ -142,19 +150,19 @@ cloudbase hosting deploy ./public  -e EnvID
 
 
 
-## 使用github进行托管
+### 使用github进行托管
 准备一个github 仓库
 
 
 
 1. 在命令行中进行git 初始化
-
+```bash
 git init
-
+```
 2.  检查是否有改变
-
+```bash
 git status
-
+```
 3. git add .
 
 4. git commit -m "msg"
@@ -174,7 +182,7 @@ git status
 在gh-pages.yml输入以下内容后保存。
 
 name: github pages
-
+```yaml
 on:
   push:
     branches:
@@ -205,18 +213,18 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-
+```
 
 
 10. 因为我们新建了文件，所以我们要把所有的文件都上传到github中。
 
 再走一遍
-
+```bash
 git status 
 git add .
 git commit -m "add yml file"
 git push
-
+```
 11. 成功的话，我们会发现所有的内容都上传到github了
 
 12. 找到刚刚的github仓库，点击Actions，就可以看到我们的网站部署成功了。
