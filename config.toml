@@ -59,6 +59,7 @@ description = "这是我的全新 Hugo 网站"
       disclaimer = ""
     # Home page posts
     # 主页文章列表
+  
 
 
 # Menu config
@@ -128,11 +129,16 @@ description = "这是我的全新 Hugo 网站"
     # 排列图标时的权重 (权重越大, 图标的位置越靠后)
     weight = 2
     # 你的社交 ID
-    id = "7621278794"
+    id = ""
     # 你的社交链接的前缀
-    prefix = "https://weibo.com/u/"
+    prefix = "https://space.bilibili.com/37552982?spm_id_from=333.1007.0.0"
     # 当鼠标停留在图标上时的提示内容
-    title = "weibo"
+    title = "Bilibili"
+  [params.social.Email]
+    weight = 3
+    id = "pingfan.work@gmail.com"
+    prefix = "pingfan.work@gmail.com"
+    title = "Bilibili"
 
 
 # Page global config
@@ -232,22 +238,22 @@ description = "这是我的全新 Hugo 网站"
     # 文章页面的分享信息设置
     [params.page.share]
       enable = true
-      Twitter = true
-      Facebook = true
+      Twitter = false
+      Facebook = false
       Linkedin = false
       Whatsapp = false
       Pinterest = false
       Tumblr = false
-      HackerNews = true
+      HackerNews = false
       Reddit = false
       VK = false
       Buffer = false
       Xing = false
-      Line = true
+      Line = false
       Instapaper = false
       Pocket = false
       Flipboard = false
-      Weibo = true
+      Weibo = false
       Blogger = false
       Baidu = false
       Odnoklassniki = false
@@ -476,3 +482,5 @@ description = "这是我的全新 Hugo 网站"
     # whether to use object-fit-images to be compatible with older browsers
     # 是否使用 object-fit-images 来兼容旧式浏览器
     objectFit = false
+
+
