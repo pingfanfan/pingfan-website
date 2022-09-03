@@ -3,6 +3,8 @@ title: "如何零基础零费用的在30分钟内创建一个专属于你的个�
 date: 2022-08-22T17:19:48+01:00
 draft: false
 author: pingfan
+tags: ["Blog", "Hugo","Cloud"]
+categories: ["Blog"]
 ---
 
 <!-- ![fff](https://raw.githubusercontent.com/jzxywpf/pictures/main/tencent/2022-08-13-12-34-19.png) -->
@@ -18,7 +20,7 @@ author: pingfan
 
 这也是我建个人博客的最主要理由，因为有些东西因为这样的或者那样的原因，无法在公域平台发布，那么自己的博客网站，总可以容纳的下。
 
-# 建立个人博客的流程
+# 建立个人博客的两个方法
 
 这是一套非常简单的方法，我希望可以让每一个人都可以照着这套方法建立自己的博客。
 
@@ -27,8 +29,6 @@ author: pingfan
 第一个版本为通用版本，利用云服务器的host功能，一个月仅需要花费一杯咖啡的钱。
 
 第二个版本为github版本，利用github pages的免费host和自动部署功能，不需要花一分钱就可以拥有自己的博客。
-
-# 总体流程图
 
 
 ## 前置准备
@@ -362,7 +362,7 @@ git push
 这是我的[域名](https://www.pingfan.me)。
 
 
-如果有问题，可以加这个群，有空我会看的:
+如果有问题，可以加这个群，有空我会看的。
 群号：339309252
 或者扫这个：[QQ群](https://raw.githubusercontent.com/jzxywpf/pictures/main/zero-experience/IMG_3980.JPG)
 

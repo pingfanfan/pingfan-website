@@ -134,11 +134,11 @@ description = "这是我的全新 Hugo 网站"
     prefix = "https://space.bilibili.com/37552982?spm_id_from=333.1007.0.0"
     # 当鼠标停留在图标上时的提示内容
     title = "Bilibili"
-  [params.social.Email]
+  [params.social.GitHub]
     weight = 3
-    id = "pingfan.work@gmail.com"
-    prefix = "pingfan.work@gmail.com"
-    title = "Bilibili"
+    id = "jzxywpf"
+    prefix = "https://github.com/"
+    title = "Github"
 
 
 # Page global config
