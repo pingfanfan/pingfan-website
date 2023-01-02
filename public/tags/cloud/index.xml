@@ -1,0 +1,41 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Cloud - Tag - Pingfan&#39;s blog</title>
+        <link>https://pingfan.me/tags/cloud/</link>
+        <description>Cloud - Tag - Pingfan&#39;s blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 22 Aug 2022 17:19:48 &#43;0100</lastBuildDate><atom:link href="https://pingfan.me/tags/cloud/" rel="self" type="application/rss+xml" /><item>
+    <title>如何零基础零费用的在30分钟内创建一个专属于你的个人博客</title>
+    <link>https://pingfan.me/posts/cs/create_blog_with_zero_experience/</link>
+    <pubDate>Mon, 22 Aug 2022 17:19:48 &#43;0100</pubDate>
+    <author>pingfan</author>
+    <guid>https://pingfan.me/posts/cs/create_blog_with_zero_experience/</guid>
+    <description><![CDATA[写这篇文章的原因是在网上看了很多的教程，踩了不少的坑，更多的白费了很多功夫，也没找到一篇从头到尾完整有效的个人建站方法。
+有些教程年代久远，有些教程极为繁琐，有些教程压根跑不通。
+为了方便自己，做个记录，也方便大家，在这个人人都可以发声的时代，又感觉人人的喉咙都被扼住了。
+虽然大家在各个媒体平台都有自己的账号，但是给自己留一份自己的自留地，貌似也不会是什么坏事。
+这也是我建个人博客的最主要理由，因为有些东西因为这样的或者那样的原因，无法在公域平台发布，那么自己的博客网站，总可以容纳的下。
+建立个人博客的两个方法 这是一套非常简单的方法，我希望可以让每一个人都可以照着这套方法建立自己的博客。
+总共分为两个版本：
+第一个版本为通用版本，利用云服务器的host功能，一个月仅需要花费一杯咖啡的钱。
+第二个版本为github版本，利用github pages的免费host和自动部署功能，不需要花一分钱就可以拥有自己的博客。
+视频版本： 前置准备 Mac 和 linux 需要：homebrew，git包管理，Node.js, vscode(推荐)
+homebrew安装：直接命令行输入
+/bin/bash -c &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&#34; git包管理：直接命令行输入
+brew install git Node.js: 下载安装包后按照默认设置安装
+Node.js下载链接
+Windows 需要：git包管理，hugo预编译文件，Node.js, vscode(推荐)
+git包管理：点击下面链接下载后安装
+git包管理下载链接
+Node.js: 下载安装包后按照默认设置安装
+Node.js下载链接
+准备 hugo 环境 我们用hugo来写个人博客，它是一个非常快捷和友好的博客框架。
+mac 安装方法：命令行种输入 brew install hugo Windows安装方法 比mac要麻烦点，但是安装方法很详细。
+windows版本的安装方法
+学会在命令行中创建blog 注意！ 每一步命令输入后按「回车键」 windows：在搜索栏中输入cmd或者命令行
+mac：找到Terminal
+正文正式开始 使用hugo创建一个blog项目 创建一个新的blog 使用命令hugo new site来创建一个博客，pingfan-blog这个名字可以根据自己的需要改
+hugo new site pingfan-blog 进入刚刚创建好的博客文件夹中 在命令行中使用cd命令
+cd pingfan-blog 给博客加个皮肤，一次复制+粘贴三行代码到命令行中 第一行：把当前目录进行github仓库的初始化]]></description>
+</item>
+</channel>
+</rss>

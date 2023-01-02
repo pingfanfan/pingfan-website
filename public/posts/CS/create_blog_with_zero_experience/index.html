@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>如何零基础零费用的在30分钟内创建一个专属于你的个人博客 - Pingfan&#39;s blog</title><meta name="Description" content="This is my cool site"><meta property="og:title" content="如何零基础零费用的在30分钟内创建一个专属于你的个人博客" />
+<meta property="og:description" content="写这篇文章的原因是在网上看了很多的教程，踩了不少的坑，更多的白费了很多功夫，也没找到一篇从头到尾完整有效的个人建站方法。
+有些教程年代久远，有些教程极为繁琐，有些教程压根跑不通。
+为了方便自己，做个记录，也方便大家，在这个人人都可以发声的时代，又感觉人人的喉咙都被扼住了。
+虽然大家在各个媒体平台都有自己的账号，但是给自己留一份自己的自留地，貌似也不会是什么坏事。
+这也是我建个人博客的最主要理由，因为有些东西因为这样的或者那样的原因，无法在公域平台发布，那么自己的博客网站，总可以容纳的下。
+建立个人博客的两个方法 这是一套非常简单的方法，我希望可以让每一个人都可以照着这套方法建立自己的博客。
+总共分为两个版本：
+第一个版本为通用版本，利用云服务器的host功能，一个月仅需要花费一杯咖啡的钱。
+第二个版本为github版本，利用github pages的免费host和自动部署功能，不需要花一分钱就可以拥有自己的博客。
+视频版本： 前置准备 Mac 和 linux 需要：homebrew，git包管理，Node.js, vscode(推荐)
+homebrew安装：直接命令行输入
+/bin/bash -c &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&#34; git包管理：直接命令行输入
+brew install git Node.js: 下载安装包后按照默认设置安装
+Node.js下载链接
+Windows 需要：git包管理，hugo预编译文件，Node.js, vscode(推荐)
+git包管理：点击下面链接下载后安装
+git包管理下载链接
+Node.js: 下载安装包后按照默认设置安装
+Node.js下载链接
+准备 hugo 环境 我们用hugo来写个人博客，它是一个非常快捷和友好的博客框架。
+mac 安装方法：命令行种输入 brew install hugo Windows安装方法 比mac要麻烦点，但是安装方法很详细。
+windows版本的安装方法
+学会在命令行中创建blog 注意！ 每一步命令输入后按「回车键」 windows：在搜索栏中输入cmd或者命令行
+mac：找到Terminal
+正文正式开始 使用hugo创建一个blog项目 创建一个新的blog 使用命令hugo new site来创建一个博客，pingfan-blog这个名字可以根据自己的需要改
+hugo new site pingfan-blog 进入刚刚创建好的博客文件夹中 在命令行中使用cd命令
+cd pingfan-blog 给博客加个皮肤，一次复制&#43;粘贴三行代码到命令行中 第一行：把当前目录进行github仓库的初始化" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://pingfan.me/posts/cs/create_blog_with_zero_experience/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-08-22T17:19:48+01:00" />
+<meta property="article:modified_time" content="2022-08-22T17:19:48+01:00" /><meta property="og:site_name" content="My cool site" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="如何零基础零费用的在30分钟内创建一个专属于你的个人博客"/>
+<meta name="twitter:description" content="写这篇文章的原因是在网上看了很多的教程，踩了不少的坑，更多的白费了很多功夫，也没找到一篇从头到尾完整有效的个人建站方法。
+有些教程年代久远，有些教程极为繁琐，有些教程压根跑不通。
+为了方便自己，做个记录，也方便大家，在这个人人都可以发声的时代，又感觉人人的喉咙都被扼住了。
+虽然大家在各个媒体平台都有自己的账号，但是给自己留一份自己的自留地，貌似也不会是什么坏事。
+这也是我建个人博客的最主要理由，因为有些东西因为这样的或者那样的原因，无法在公域平台发布，那么自己的博客网站，总可以容纳的下。
+建立个人博客的两个方法 这是一套非常简单的方法，我希望可以让每一个人都可以照着这套方法建立自己的博客。
+总共分为两个版本：
+第一个版本为通用版本，利用云服务器的host功能，一个月仅需要花费一杯咖啡的钱。
+第二个版本为github版本，利用github pages的免费host和自动部署功能，不需要花一分钱就可以拥有自己的博客。
+视频版本： 前置准备 Mac 和 linux 需要：homebrew，git包管理，Node.js, vscode(推荐)
+homebrew安装：直接命令行输入
+/bin/bash -c &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&#34; git包管理：直接命令行输入
+brew install git Node.js: 下载安装包后按照默认设置安装
+Node.js下载链接
+Windows 需要：git包管理，hugo预编译文件，Node.js, vscode(推荐)
+git包管理：点击下面链接下载后安装
+git包管理下载链接
+Node.js: 下载安装包后按照默认设置安装
+Node.js下载链接
+准备 hugo 环境 我们用hugo来写个人博客，它是一个非常快捷和友好的博客框架。
+mac 安装方法：命令行种输入 brew install hugo Windows安装方法 比mac要麻烦点，但是安装方法很详细。
+windows版本的安装方法
+学会在命令行中创建blog 注意！ 每一步命令输入后按「回车键」 windows：在搜索栏中输入cmd或者命令行
+mac：找到Terminal
+正文正式开始 使用hugo创建一个blog项目 创建一个新的blog 使用命令hugo new site来创建一个博客，pingfan-blog这个名字可以根据自己的需要改
+hugo new site pingfan-blog 进入刚刚创建好的博客文件夹中 在命令行中使用cd命令
+cd pingfan-blog 给博客加个皮肤，一次复制&#43;粘贴三行代码到命令行中 第一行：把当前目录进行github仓库的初始化"/>
+<meta name="application-name" content="My cool site">
+<meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://pingfan.me/posts/cs/create_blog_with_zero_experience/" /><link rel="prev" href="https://pingfan.me/posts/cs/tecent_cloud/" /><link rel="next" href="https://pingfan.me/posts/cs/python_jupyter_project/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "如何零基础零费用的在30分钟内创建一个专属于你的个人博客",
+        "inLanguage": "en-us",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/pingfan.me\/posts\/cs\/create_blog_with_zero_experience\/"
+        },"genre": "posts","keywords": "Blog, Hugo, Cloud","wordcount":  333 ,
+        "url": "https:\/\/pingfan.me\/posts\/cs\/create_blog_with_zero_experience\/","datePublished": "2022-08-22T17:19:48+01:00","dateModified": "2022-08-22T17:19:48+01:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "pingfan"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Pingfan&#39;s blog">pingfan is me</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/about/"> About </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Pingfan&#39;s blog">pingfan is me</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/about/" title="">About</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">如何零基础零费用的在30分钟内创建一个专属于你的个人博客</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>pingfan</a></span>&nbsp;<span class="post-category">included in <a href="/categories/blog/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Blog</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-08-22">2022-08-22</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;333 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#前置准备">前置准备</a>
+      <ul>
+        <li><a href="#mac-和-linux">Mac 和 linux</a></li>
+        <li><a href="#windows">Windows</a></li>
+      </ul>
+    </li>
+    <li><a href="#准备-hugo-环境">准备 hugo 环境</a>
+      <ul>
+        <li><a href="#mac-安装方法命令行种输入">mac 安装方法：命令行种输入</a></li>
+        <li><a href="#windows安装方法">Windows安装方法</a></li>
+      </ul>
+    </li>
+    <li><a href="#学会在命令行中创建blog">学会在命令行中创建blog</a>
+      <ul>
+        <li><a href="#创建一个新的blog">创建一个新的blog</a></li>
+        <li><a href="#进入刚刚创建好的博客文件夹中">进入刚刚创建好的博客文件夹中</a></li>
+        <li><a href="#给博客加个皮肤一次复制粘贴三行代码到命令行中">给博客加个皮肤，一次复制+粘贴三行代码到命令行中</a></li>
+        <li><a href="#写第一篇blog">写第一篇blog</a></li>
+        <li><a href="#运行下博客看是否可行">运行下博客看是否可行</a></li>
+        <li><a href="#生成静态文件准备进一步托管">生成静态文件，准备进一步托管</a></li>
+      </ul>
+    </li>
+    <li><a href="#静态网站托管服务">静态网站托管服务</a>
+      <ul>
+        <li><a href="#1-首先你得有一个云服务空间这里我使用的是腾讯云的cloudbase">1. 首先你得有一个云服务空间，这里我使用的是腾讯云的cloudbase</a></li>
+        <li><a href="#2-创建好后得到了一个环境id待会儿要用到">2. 创建好后得到了一个<strong>环境ID</strong>，待会儿要用到</a></li>
+        <li><a href="#3-在本地安装nodejs">3. 在本地安装Node.js</a></li>
+        <li><a href="#4-打开命令行输入以下命令安装-cloudbase-cli">4. 打开命令行，输入以下命令安装 cloudbase cli</a></li>
+        <li><a href="#5-登录云开发">5. 登录云开发</a></li>
+        <li><a href="#6-在弹出的页面中单击确认授权进行授权">6. 在弹出的页面中单击<strong>确认授权</strong>进行授权</a></li>
+        <li><a href="#7-执行以下命令把public文件夹部署到云服务器上把envid换成刚刚的环境id">7. 执行以下命令，把public文件夹部署到云服务器上（把EnvID换成刚刚的<strong>环境ID</strong>）</a></li>
+        <li><a href="#8登录云开发控制台">8.登录云开发控制台</a></li>
+      </ul>
+    </li>
+    <li><a href="#使用github进行托管">使用Github进行托管</a>
+      <ul>
+        <li><a href="#1在-命令行中进行git初始化">1.在 命令行中进行git初始化</a></li>
+        <li><a href="#2-检查是否有改变">2. 检查是否有改变</a></li>
+        <li><a href="#3-提交到暂存区">3. 提交到暂存区</a></li>
+        <li><a href="#4-交到版本库">4. 交到版本库</a></li>
+        <li><a href="#5-创建分支">5. 创建分支</a></li>
+        <li><a href="#6-推送到远程仓库">6. 推送到远程仓库</a></li>
+        <li><a href="#7-添加gh-pagesyml文件">7. 添加gh-pages.yml文件</a></li>
+        <li><a href="#8-重新把修改过的文件上传到github上">8. 重新把修改过的文件上传到github上</a></li>
+        <li><a href="#9-成功的话我们会发现所有的内容都上传到github了">9. 成功的话，我们会发现所有的内容都上传到github了</a></li>
+        <li><a href="#10-找到刚刚的github仓库点击actions就可以看到我们的网站部署成功了">10. 找到刚刚的github仓库，点击Actions，就可以看到我们的网站部署成功了</a></li>
+        <li><a href="#11-修改branch为gh-pages位置在settings-pages那里">11. 修改branch为gh-pages，位置在settings-&gt;Pages那里</a></li>
+        <li><a href="#11-最后一步修改hugo的baseurl">11. 最后一步，修改hugo的baseURL</a></li>
+        <li><a href="#12-再走一遍">12. 再走一遍</a></li>
+        <li><a href="#13-打开github点开pages点击sourse选择gh-pages结束">13. 打开github，点开pages，点击sourse，选择gh-pages，结束</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><!-- raw HTML omitted -->
+<p>写这篇文章的原因是在网上看了很多的教程，踩了不少的坑，更多的白费了很多功夫，也没找到一篇从头到尾完整有效的个人建站方法。</p>
+<p>有些教程年代久远，有些教程极为繁琐，有些教程压根跑不通。</p>
+<p>为了方便自己，做个记录，也方便大家，在这个人人都可以发声的时代，又感觉人人的喉咙都被扼住了。</p>
+<p>虽然大家在各个媒体平台都有自己的账号，但是给自己留一份自己的自留地，貌似也不会是什么坏事。</p>
+<p>这也是我建个人博客的最主要理由，因为有些东西因为这样的或者那样的原因，无法在公域平台发布，那么自己的博客网站，总可以容纳的下。</p>
+<h1 id="建立个人博客的两个方法">建立个人博客的两个方法</h1>
+<p>这是一套非常简单的方法，我希望可以让每一个人都可以照着这套方法建立自己的博客。</p>
+<p>总共分为两个版本：</p>
+<p>第一个版本为通用版本，利用云服务器的host功能，一个月仅需要花费一杯咖啡的钱。</p>
+<p>第二个版本为github版本，利用github pages的免费host和自动部署功能，不需要花一分钱就可以拥有自己的博客。</p>
+<p>视频版本：
+<div class="bilibili"><iframe src="//player.bilibili.com/player.html?bvid=BV1514y1s7o7&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></div>
+</p>
+<h2 id="前置准备">前置准备</h2>
+<h3 id="mac-和-linux">Mac 和 linux</h3>
+<p>需要：homebrew，git包管理，Node.js, vscode(推荐)</p>
+<p> </p>
+<p>homebrew安装：直接命令行输入</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>/bin/bash -c <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+</span></span></code></pre></div><p> </p>
+<p>git包管理：直接命令行输入</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brew install git
+</span></span></code></pre></div><p> </p>
+<p>Node.js: 下载安装包后按照默认设置安装</p>
+<p><a href="https://nodejs.org/en/download/" target="_blank" rel="noopener noreffer ">Node.js下载链接</a></p>
+<h3 id="windows">Windows</h3>
+<p>需要：git包管理，hugo预编译文件，Node.js, vscode(推荐)</p>
+<p> </p>
+<p>git包管理：点击下面链接下载后安装</p>
+<p><a href="https://github.com/git-for-windows/git/releases/download/v2.37.2.windows.2/Git-2.37.2.2-64-bit.exe" target="_blank" rel="noopener noreffer ">git包管理下载链接</a></p>
+<p> </p>
+<p>Node.js: 下载安装包后按照默认设置安装</p>
+<p><a href="https://nodejs.org/en/download/" target="_blank" rel="noopener noreffer ">Node.js下载链接</a></p>
+<h2 id="准备-hugo-环境">准备 hugo 环境</h2>
+<p>我们用hugo来写个人博客，它是一个非常快捷和友好的博客框架。</p>
+<h3 id="mac-安装方法命令行种输入">mac 安装方法：命令行种输入</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brew install hugo
+</span></span></code></pre></div><h3 id="windows安装方法">Windows安装方法</h3>
+<p>比mac要麻烦点，但是安装方法很详细。</p>
+<p><a href="https://www.gohugo.org/doc/tutorials/installing-on-windows/" target="_blank" rel="noopener noreffer ">windows版本的安装方法</a></p>
+<h2 id="学会在命令行中创建blog">学会在命令行中创建blog</h2>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw" aria-hidden="true"></i>注意！<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">每一步命令输入后按「回车键」</div>
+        </div>
+    </div>
+<p>windows：在搜索栏中输入cmd或者命令行</p>
+<p>mac：找到Terminal</p>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>正文正式开始<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">使用hugo创建一个blog项目</div>
+        </div>
+    </div>
+<h3 id="创建一个新的blog">创建一个新的blog</h3>
+<p>使用命令<code>hugo new site</code>来创建一个博客，pingfan-blog这个名字可以根据自己的需要改</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new site pingfan-blog
+</span></span></code></pre></div><h3 id="进入刚刚创建好的博客文件夹中">进入刚刚创建好的博客文件夹中</h3>
+<p>在命令行中使用<code>cd</code>命令</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd pingfan-blog
+</span></span></code></pre></div><h3 id="给博客加个皮肤一次复制粘贴三行代码到命令行中">给博客加个皮肤，一次复制+粘贴三行代码到命令行中</h3>
+<p>第一行：把当前目录进行<strong>github仓库</strong>的初始化</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git init  
+</span></span></code></pre></div><p>第二行：下载anatole主题，并存放在themes文件夹中</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git submodule add https://github.com/lxndrblz/anatole.git themes/anatole  
+</span></span></code></pre></div><p>第三行：把主题改为anatole</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>echo theme <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;anatole&#34;</span> &gt;&gt; config.toml
+</span></span></code></pre></div><div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>这步看不懂的话可以打开文件修改<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">不会的话可以在文件中打开config.toml文件，手动添加</div>
+        </div>
+    </div>
+<h3 id="写第一篇blog">写第一篇blog</h3>
+<p><code>hugo new</code> + aaa/bbb.md， aaa指代的是某一个文件夹，如果你想写美食和电影两种，那就是[美食/第一篇美食.md]，或者[电影/第一篇电影.md]，尽量都用字母，其次一定要加.md</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new life/first_day.md
+</span></span></code></pre></div><h3 id="运行下博客看是否可行">运行下博客看是否可行</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server
+</span></span></code></pre></div><p>出现以下界面后，打开任意浏览器，输入http://localhost:1313 即可查看。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://raw.githubusercontent.com/jzxywpf/pictures/main/zero-experience/1662237136915.jpg"
+        data-srcset="https://raw.githubusercontent.com/jzxywpf/pictures/main/zero-experience/1662237136915.jpg, https://raw.githubusercontent.com/jzxywpf/pictures/main/zero-experience/1662237136915.jpg 1.5x, https://raw.githubusercontent.com/jzxywpf/pictures/main/zero-experience/1662237136915.jpg 2x"
+        data-sizes="auto"
+        alt="https://raw.githubusercontent.com/jzxywpf/pictures/main/zero-experience/1662237136915.jpg"
+        title="hugo server成功" /></p>
+<div class="details admonition question open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-question-circle fa-fw" aria-hidden="true"></i>上述网址打不开<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">一般是因为1313端口被占用了，可以用它生成的别的网址；或者用<code>kill -9 $(lsof -ti:1313)</code>在命令行把1313端口重新释放出来</div>
+        </div>
+    </div>
+<p>浏览器中出现如下界面说明你成功了</p>
+<figure><img src="https://raw.githubusercontent.com/jzxywpf/pictures/main/zero-experience/blog-preview.png"/><figcaption>
+            <h4>博客预览图</h4>
+        </figcaption>
+</figure>
+
+<!-- raw HTML omitted -->
+<h3 id="生成静态文件准备进一步托管">生成静态文件，准备进一步托管</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo -D
+</span></span></code></pre></div><p>你可以去自己的文件目录中看到，public文件夹里面已经多了很多文件出来。</p>
+<h2 id="静态网站托管服务">静态网站托管服务</h2>
+<p>使用云服务进行托管，这一步针对是不能访问github的同学，那么你必须得用一款云服务器进行托管。</p>
+<h3 id="1-首先你得有一个云服务空间这里我使用的是腾讯云的cloudbase">1. 首先你得有一个云服务空间，这里我使用的是腾讯云的cloudbase</h3>
+<p>这里我使用的是腾讯云的cloudbase，可以通过下面这个链接，选择新用户体验券后可以免费体验一个月。</p>
+<p><a href="https://curl.qcloud.com/ywYsIFMs" target="_blank" rel="noopener noreffer ">腾讯云cloudbase免费试用一个月链接</a></p>
+<p>添加成功后点击【控制台-&gt;云产品-&gt;cloudbase】，点开可以看到如下内容。</p>
+<figure><img src="https://pic4.zhimg.com/80/v2-e19943a4ac2bfae28ffd8e1f272cf985_720w.png?source=d16d100b"/><figcaption>
+            <h4>cloudbase云产品</h4>
+        </figcaption>
+</figure>
+
+<h3 id="2-创建好后得到了一个环境id待会儿要用到">2. 创建好后得到了一个<strong>环境ID</strong>，待会儿要用到</h3>
+<figure><img src="https://pica.zhimg.com/80/v2-f768a5cd959a106df3281e315f52f964_720w.png?source=d16d100b"/><figcaption>
+            <h4>环境ID</h4>
+        </figcaption>
+</figure>
+
+<h3 id="3-在本地安装nodejs">3. 在本地安装Node.js</h3>
+<p>网址为：https://nodejs.org/en/  windows和mac按类型下载，下载完成后安装即可。</p>
+<p>在命令行中输入以下验证是否安装成功</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npm -v
+</span></span></code></pre></div><p>出现类似于6.14.13就表示成功了。</p>
+<h3 id="4-打开命令行输入以下命令安装-cloudbase-cli">4. 打开命令行，输入以下命令安装 cloudbase cli</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npm install -g @cloudbase/cli
+</span></span></code></pre></div><h3 id="5-登录云开发">5. 登录云开发</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>tcb login
+</span></span></code></pre></div><h3 id="6-在弹出的页面中单击确认授权进行授权">6. 在弹出的页面中单击<strong>确认授权</strong>进行授权</h3>
+<figure><img src="https://pic2.zhimg.com/80/v2-bdfc3508a5a012a987c8ea8a77fd8015_720w.png"/>
+</figure>
+
+<h3 id="7-执行以下命令把public文件夹部署到云服务器上把envid换成刚刚的环境id">7. 执行以下命令，把public文件夹部署到云服务器上（把EnvID换成刚刚的<strong>环境ID</strong>）</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cloudbase hosting deploy ./public  -e EnvID
+</span></span></code></pre></div><h3 id="8登录云开发控制台">8.登录云开发控制台</h3>
+<p>进入静态网站托管页面，可以找到默认的域名，单击域名，就可以看到你的博客已经部署成功了。</p>
+<figure><img src="https://pica.zhimg.com/80/v2-08aa7b7b349d2c99e90193367312a180_720w.png?source=d16d100b"/><figcaption>
+            <h4>腾讯云控制台</h4>
+        </figcaption>
+</figure>
+
+<p>下面就是自动生成的域名</p>
+<figure><img src="https://pic1.zhimg.com/80/v2-ce0768eca6594f551b366d8a82a129d9_720w.png?source=d16d100b"/><figcaption>
+            <h4>自动生成的域名</h4>
+        </figcaption>
+</figure>
+
+<p>出现如下界面表明创建成功了</p>
+<figure><img src="https://pic1.zhimg.com/80/v2-a1be93cb8f24f4604de820a1a77193dc_720w.png?source=d16d100b"/><figcaption>
+            <h4>成功了！</h4>
+        </figcaption>
+</figure>
+
+<h2 id="使用github进行托管">使用Github进行托管</h2>
+<p>这个方法是给可以访问github的同学准备的，首先你需要新建一个github仓库，名字无所谓。</p>
+<p>然后在命令后中进行操作</p>
+<h3 id="1在-命令行中进行git初始化">1.在 命令行中进行git初始化</h3>
+<p>这步我们已经做过了，当然了，再做一次也没关系</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git init
+</span></span></code></pre></div><h3 id="2-检查是否有改变">2. 检查是否有改变</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git status
+</span></span></code></pre></div><h3 id="3-提交到暂存区">3. 提交到暂存区</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add .
+</span></span></code></pre></div><h3 id="4-交到版本库">4. 交到版本库</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;msg&#34;</span>
+</span></span></code></pre></div><h3 id="5-创建分支">5. 创建分支</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git branch -M main
+</span></span><span style="display:flex;"><span>git remote add origin https://.....git
+</span></span></code></pre></div><!-- raw HTML omitted -->
+<h3 id="6-推送到远程仓库">6. 推送到远程仓库</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git push -u origin main
+</span></span></code></pre></div><h3 id="7-添加gh-pagesyml文件">7. 添加gh-pages.yml文件</h3>
+<p>新建一个文件，在pingfan-blog目录下，名称为**.github**,然后在.github文件夹下新建一个文件夹<strong>workflows</strong>，在workflows文件夹下新建一个文件叫<strong>gh-pages.yml</strong></p>
+<p>总的路径为<em><strong>pingfan-blog/.github/workflows/gh-pages.yml</strong></em></p>
+<p>在gh-pages.yml输入以下内容后保存。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">name</span>: <span style="color:#ae81ff">github pages</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">on</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">push</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">branches</span>:
+</span></span><span style="display:flex;"><span>      - <span style="color:#ae81ff">main </span> <span style="color:#75715e"># Set a branch to deploy</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">pull_request</span>:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">jobs</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">deploy</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">runs-on</span>: <span style="color:#ae81ff">ubuntu-20.04</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">steps</span>:
+</span></span><span style="display:flex;"><span>      - <span style="color:#f92672">uses</span>: <span style="color:#ae81ff">actions/checkout@v2</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">with</span>:
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">submodules</span>: <span style="color:#66d9ef">true</span>  <span style="color:#75715e"># Fetch Hugo themes (true OR recursive)</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">fetch-depth</span>: <span style="color:#ae81ff">0</span>    <span style="color:#75715e"># Fetch all history for .GitInfo and .Lastmod</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Setup Hugo</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">uses</span>: <span style="color:#ae81ff">peaceiris/actions-hugo@v2</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">with</span>:
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">hugo-version</span>: <span style="color:#e6db74">&#39;latest&#39;</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#75715e"># extended: true</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Build</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">run</span>: <span style="color:#ae81ff">hugo --minify</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Deploy</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">uses</span>: <span style="color:#ae81ff">peaceiris/actions-gh-pages@v3</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">if</span>: <span style="color:#ae81ff">github.ref == &#39;refs/heads/main&#39;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">with</span>:
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">github_token</span>: <span style="color:#ae81ff">${{ secrets.GITHUB_TOKEN }}</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">publish_dir</span>: <span style="color:#ae81ff">./public</span>
+</span></span></code></pre></div><h3 id="8-重新把修改过的文件上传到github上">8. 重新把修改过的文件上传到github上</h3>
+<p>再走一遍</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git status 
+</span></span><span style="display:flex;"><span>git add .
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;add yml file&#34;</span>
+</span></span><span style="display:flex;"><span>git push
+</span></span></code></pre></div><h3 id="9-成功的话我们会发现所有的内容都上传到github了">9. 成功的话，我们会发现所有的内容都上传到github了</h3>
+<h3 id="10-找到刚刚的github仓库点击actions就可以看到我们的网站部署成功了">10. 找到刚刚的github仓库，点击Actions，就可以看到我们的网站部署成功了</h3>
+<figure><img src="https://pic1.zhimg.com/80/v2-14b67e4a795309a717df6d0d8caf20a4_720w.png?source=d16d100b"/><figcaption>
+            <h4>博客由github自动部署了</h4>
+        </figcaption>
+</figure>
+
+<h3 id="11-修改branch为gh-pages位置在settings-pages那里">11. 修改branch为gh-pages，位置在settings-&gt;Pages那里</h3>
+<figure><img src="https://pic1.zhimg.com/80/v2-2a00d39f27c447842115820e092df084_720w.png?source=d16d100b"/>
+</figure>
+
+<h3 id="11-最后一步修改hugo的baseurl">11. 最后一步，修改hugo的baseURL</h3>
+<p>在github的仓库中找到Settings-&gt;Pages，找到为https://******.github.io/pingfan-blog</p>
+<p><figure><img src="https://pic3.zhimg.com/80/v2-ab3c0e5a5b7da0e9d0cd8d90bc55497a_720w.png?source=d16d100b"/>
+</figure>
+
+复制粘贴，打开config.toml，然后替换掉原先的。
+<figure><img src="https://pica.zhimg.com/80/v2-6fa10f8b021e5d9c7ec7af3ac52aa5d7_720w.png?source=d16d100b"/>
+</figure>
+</p>
+<h3 id="12-再走一遍">12. 再走一遍</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git status 
+</span></span><span style="display:flex;"><span>git add .
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;revise config&#34;</span>
+</span></span><span style="display:flex;"><span>git push
+</span></span></code></pre></div><h3 id="13-打开github点开pages点击sourse选择gh-pages结束">13. 打开github，点开pages，点击sourse，选择gh-pages，结束</h3>
+<p>我这个是换成了我自己购买的域名，所以会显示的不一样，你也可以买一个自己喜欢的域名，而不是默认的域名。
+<figure><img src="https://picx.zhimg.com/80/v2-4d3a3c89c06778c80ff39fac9bc2fc5c_720w.png"/>
+</figure>
+</p>
+<p>这是我的<a href="https://www.pingfan.me" target="_blank" rel="noopener noreffer ">域名</a>。</p>
+<p>如果有问题，可以加这个群，有空我会看的。
+群号：339309252
+或者扫这个：<a href="https://raw.githubusercontent.com/jzxywpf/pictures/main/zero-experience/IMG_3980.JPG" target="_blank" rel="noopener noreffer ">QQ群</a></p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2022-08-22</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/blog/">Blog</a>,&nbsp;<a href="/tags/hugo/">Hugo</a>,&nbsp;<a href="/tags/cloud/">Cloud</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/cs/tecent_cloud/" class="prev" rel="prev" title="没有GPU怎么做深度学习"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>没有GPU怎么做深度学习</a>
+            <a href="/posts/cs/python_jupyter_project/" class="next" rel="next" title="对于初学者友好的Python微型小例子，附有答案">对于初学者友好的Python微型小例子，附有答案<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.101.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

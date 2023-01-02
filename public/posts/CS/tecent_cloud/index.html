@@ -1,113 +1,10 @@
 <!DOCTYPE html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<html class="not-ready text-sm lg:text-base" lang="en-us">
-  <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
-  
-  <title>没有GPU怎么做深度学习 - Pingfan</title>
-
-  
-  <meta name="theme-color" />
-  
-  <meta name="description" content="实验室一块GPU都没有怎么做深度学习？
-看情况，深度学习也分情况的。
-深度学习可以理解为深度神经网络进行机器学习，而深度神经网络的定义并不都是上百层才算，理论上来说，4层以上或者含有两个隐藏层的网络结构就可以称之为深度。
-如果是层数不多的情况下，CPU也是可以跑的，慢就慢点吧。
-不过在很多的情况下，比如说计算机视觉CV类型的，层数动不动几十上百层，数据集动不动几十个G甚至更大，这种情况必须得用GPU，还得好几块，同时还得搭配容量更大的内存。
-这时候除非你老板给你掏钱买机器，要么你自费买，前者得老板发善心，后者往往一下子掏不起。
-那是不是就没办法解决了，其实也有，那就是用云服务器跑深度学习。
-其实这个很好理解，不是所有人都跑过深度学习，但我相信没几个人没用过Office三件套，也就是word，excel和ppt。
-以前我们用的word都得下一个安装包很大的软件，然后打开输入；现在呢，打开office 365，里面不仅有word，还有excel，ppt，onedrive等等。
-就比如说word，完全不需要下载软件，在网页上可以直接编辑，这就意味着什么，你可以拜托掉必须要在电脑上才可以办公。
-只有有一个可以打开网页的设备，你就可以查看或者修改你的文件，同时你的文件也都保存在云端。
-这样也有巨大的好处，比如以前你出门需要带个U盘，但是忘了带或者坏了就完蛋了，但是云端的好处就是几乎不会丢，还用担心存储设备会坏掉。
-那我要说的云服务器跑深度学习也是这个道理。
-我们在本地跑深度学习的原理是什么？
-可以从这个图中看到，我们缺的就是计算资源，本地的计算资源就是GPU显卡，太贵了，买不起！
-但是计算资源是抽象的，你管它是从GPU来的，还是别的地方来的。
-这时候云计算资源就有用处了，我们可以用云计算资源来跑深度学习，只不过我们需要把数据和环境在云环境中配置一下，其余都是一样的，同时，我们还可以摆脱大块头电脑，仅仅需要一个带有浏览器的设备就可以跑深度学习。
-我用过两个云服务器跑深度学习，一个是colab，也就是google推出的那个，好处多多，但坏处有一个，也很致命，那就是我推荐给不少人之后，发现他们压根打不开，或者访问速度很慢，在国内的同学我其实不是很推荐。
-另一个就是腾讯云服务器，这个是之前搞活动的时候我看到有免费赠送的云服务器，我就去白嫖了一段时间。
-现在这个白嫖活动好像结束了，但是有类似的活动，一块钱用15天，其实也相当于是免费的。
-【腾讯云】多款云产品1折起，买云服务器送免费机器，最长免费续3个月
-https://cloud.tencent.com/act/cps/redirect?redirect=2446&amp;cps_key=e743b84aa5dbd1d87fc3965e46050a69&amp;from=console
-至于如何用腾讯云跑深度学习，这篇文章一步步的介绍了这个过程，包括了购买、使用以及准备深度学习的过程。" />
-  <meta name="author" content="" />
-  
-
-  
-  
-  
-  
-  
-  
-  <link rel="preload stylesheet" as="style" href="https://pingfan.me/main.min.css" />
-
-  
-  <script
-    defer
-    src="https://pingfan.me/highlight.min.js"
-    onload="hljs.initHighlightingOnLoad();"
-  ></script>
-  
-
-  
-  
-  
-  <link
-    rel="preload"
-    as="image"
-    href="https://pingfan.me/theme.png"
-  />
-
-  
-  
-  
-  
-
-  
-
-  
-  <link rel="icon" href="https://pingfan.me/favicon.ico" />
-  <link rel="apple-touch-icon" href="https://pingfan.me/apple-touch-icon.png" />
-
-  
-  <meta name="generator" content="Hugo 0.101.0" />
-
-  
-  
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <meta property="og:title" content="没有GPU怎么做深度学习" />
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>没有GPU怎么做深度学习 - Pingfan&#39;s blog</title><meta name="Description" content="This is my cool site"><meta property="og:title" content="没有GPU怎么做深度学习" />
 <meta property="og:description" content="实验室一块GPU都没有怎么做深度学习？
 看情况，深度学习也分情况的。
 深度学习可以理解为深度神经网络进行机器学习，而深度神经网络的定义并不都是上百层才算，理论上来说，4层以上或者含有两个隐藏层的网络结构就可以称之为深度。
@@ -129,44 +26,14 @@ https://cloud.tencent.com/act/cps/redirect?redirect=2446&amp;cps_key=e743b84aa5d
 另一个就是腾讯云服务器，这个是之前搞活动的时候我看到有免费赠送的云服务器，我就去白嫖了一段时间。
 现在这个白嫖活动好像结束了，但是有类似的活动，一块钱用15天，其实也相当于是免费的。
 【腾讯云】多款云产品1折起，买云服务器送免费机器，最长免费续3个月
-https://cloud.tencent.com/act/cps/redirect?redirect=2446&amp;cps_key=e743b84aa5dbd1d87fc3965e46050a69&amp;from=console
+https://cloud.tencent.com/act/cps/redirect?redirect=2446&cps_key=e743b84aa5dbd1d87fc3965e46050a69&from=console
 至于如何用腾讯云跑深度学习，这篇文章一步步的介绍了这个过程，包括了购买、使用以及准备深度学习的过程。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://pingfan.me/posts/cs/tecent_cloud/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-08-13T12:25:08+01:00" />
-<meta property="article:modified_time" content="2022-08-13T12:25:08+01:00" />
+<meta property="article:modified_time" content="2022-08-13T12:25:08+01:00" /><meta property="og:site_name" content="My cool site" />
 
-
-  
-  <meta itemprop="name" content="没有GPU怎么做深度学习">
-<meta itemprop="description" content="实验室一块GPU都没有怎么做深度学习？
-看情况，深度学习也分情况的。
-深度学习可以理解为深度神经网络进行机器学习，而深度神经网络的定义并不都是上百层才算，理论上来说，4层以上或者含有两个隐藏层的网络结构就可以称之为深度。
-如果是层数不多的情况下，CPU也是可以跑的，慢就慢点吧。
-不过在很多的情况下，比如说计算机视觉CV类型的，层数动不动几十上百层，数据集动不动几十个G甚至更大，这种情况必须得用GPU，还得好几块，同时还得搭配容量更大的内存。
-这时候除非你老板给你掏钱买机器，要么你自费买，前者得老板发善心，后者往往一下子掏不起。
-那是不是就没办法解决了，其实也有，那就是用云服务器跑深度学习。
-其实这个很好理解，不是所有人都跑过深度学习，但我相信没几个人没用过Office三件套，也就是word，excel和ppt。
-以前我们用的word都得下一个安装包很大的软件，然后打开输入；现在呢，打开office 365，里面不仅有word，还有excel，ppt，onedrive等等。
-就比如说word，完全不需要下载软件，在网页上可以直接编辑，这就意味着什么，你可以拜托掉必须要在电脑上才可以办公。
-只有有一个可以打开网页的设备，你就可以查看或者修改你的文件，同时你的文件也都保存在云端。
-这样也有巨大的好处，比如以前你出门需要带个U盘，但是忘了带或者坏了就完蛋了，但是云端的好处就是几乎不会丢，还用担心存储设备会坏掉。
-那我要说的云服务器跑深度学习也是这个道理。
-我们在本地跑深度学习的原理是什么？
-可以从这个图中看到，我们缺的就是计算资源，本地的计算资源就是GPU显卡，太贵了，买不起！
-但是计算资源是抽象的，你管它是从GPU来的，还是别的地方来的。
-这时候云计算资源就有用处了，我们可以用云计算资源来跑深度学习，只不过我们需要把数据和环境在云环境中配置一下，其余都是一样的，同时，我们还可以摆脱大块头电脑，仅仅需要一个带有浏览器的设备就可以跑深度学习。
-我用过两个云服务器跑深度学习，一个是colab，也就是google推出的那个，好处多多，但坏处有一个，也很致命，那就是我推荐给不少人之后，发现他们压根打不开，或者访问速度很慢，在国内的同学我其实不是很推荐。
-另一个就是腾讯云服务器，这个是之前搞活动的时候我看到有免费赠送的云服务器，我就去白嫖了一段时间。
-现在这个白嫖活动好像结束了，但是有类似的活动，一块钱用15天，其实也相当于是免费的。
-【腾讯云】多款云产品1折起，买云服务器送免费机器，最长免费续3个月
-https://cloud.tencent.com/act/cps/redirect?redirect=2446&amp;cps_key=e743b84aa5dbd1d87fc3965e46050a69&amp;from=console
-至于如何用腾讯云跑深度学习，这篇文章一步步的介绍了这个过程，包括了购买、使用以及准备深度学习的过程。"><meta itemprop="datePublished" content="2022-08-13T12:25:08+01:00" />
-<meta itemprop="dateModified" content="2022-08-13T12:25:08+01:00" />
-<meta itemprop="wordCount" content="24">
-<meta itemprop="keywords" content="" />
-  
-  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="没有GPU怎么做深度学习"/>
 <meta name="twitter:description" content="实验室一块GPU都没有怎么做深度学习？
 看情况，深度学习也分情况的。
@@ -189,167 +56,162 @@ https://cloud.tencent.com/act/cps/redirect?redirect=2446&amp;cps_key=e743b84aa5d
 另一个就是腾讯云服务器，这个是之前搞活动的时候我看到有免费赠送的云服务器，我就去白嫖了一段时间。
 现在这个白嫖活动好像结束了，但是有类似的活动，一块钱用15天，其实也相当于是免费的。
 【腾讯云】多款云产品1折起，买云服务器送免费机器，最长免费续3个月
-https://cloud.tencent.com/act/cps/redirect?redirect=2446&amp;cps_key=e743b84aa5dbd1d87fc3965e46050a69&amp;from=console
+https://cloud.tencent.com/act/cps/redirect?redirect=2446&cps_key=e743b84aa5dbd1d87fc3965e46050a69&from=console
 至于如何用腾讯云跑深度学习，这篇文章一步步的介绍了这个过程，包括了购买、使用以及准备深度学习的过程。"/>
+<meta name="application-name" content="My cool site">
+<meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://pingfan.me/posts/cs/tecent_cloud/" /><link rel="prev" href="https://pingfan.me/posts/latex/" /><link rel="next" href="https://pingfan.me/posts/cs/create_blog_with_zero_experience/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "没有GPU怎么做深度学习",
+        "inLanguage": "en-us",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/pingfan.me\/posts\/cs\/tecent_cloud\/"
+        },"genre": "posts","keywords": "GPU, deep learning, AI","wordcount":  24 ,
+        "url": "https:\/\/pingfan.me\/posts\/cs\/tecent_cloud\/","datePublished": "2022-08-13T12:25:08+01:00","dateModified": "2022-08-13T12:25:08+01:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "pingfan"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
 
-  
-  
-</head>
-
-  <body class="text-black duration-200 ease-out dark:text-white">
-    <header class="mx-auto flex h-[5rem] max-w-3xl px-8 lg:justify-center">
-  <div class="relative z-50 mr-auto flex items-center">
-    <a class="-translate-x-[1px] -translate-y-0.5 text-3xl font-bold" href="https://pingfan.me/"
-      >Pingfan</a
-    >
-    <a
-      class="btn-dark ml-6 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
-    ></a>
-  </div>
-
-  <a
-    class="btn-menu relative z-50 -mr-8 flex h-[5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
-  ></a>
-
-  <script>
-    const metaTheme = document.querySelector('meta[name="theme-color"]');
-    const htmlClass = document.documentElement.classList;
-    setTimeout(() => htmlClass.remove('not-ready'), 10);
-
-    const setDark = (newDark) => {
-      metaTheme.setAttribute('content', newDark ? '#000' : '#fbfbfb');
-      htmlClass[newDark ? 'add' : 'remove']('dark');
-      localStorage.setItem('dark', newDark);
-    };
-
-    
-    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
-    const darkVal = localStorage.getItem('dark');
-    setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
-
-    
-    darkScheme.addEventListener('change', (event) => {
-      setDark(event.matches);
-    });
-
-    
-    const btnDark = document.querySelector('.btn-dark');
-    btnDark.addEventListener('click', () => {
-      setDark(localStorage.getItem('dark') !== 'true');
-    });
-
-    
-    const btnMenu = document.querySelector('.btn-menu');
-    btnMenu.addEventListener('click', () => {
-      htmlClass.toggle('open');
-    });
-  </script>
-
-  <div
-    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
-  >
-    
-    
-    <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-6">
-      
-      <a
-        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
-        href="/pingfan/pingfan"
-        >about</a
-      >
-      
-    </nav>
-    
-
-    
-  </div>
-</header>
-
-
-    <main
-      class="prose prose-neutral relative mx-auto min-h-[calc(100%-10rem)] max-w-3xl px-8 pt-20 pb-32 dark:prose-invert"
-    >
-      
-
-<article>
-  <header class="mb-20">
-    <h1 class="!my-0 pb-2.5">没有GPU怎么做深度学习</h1>
-
-    
-    <div class="text-sm opacity-60">
-      
-      <time>Aug 13, 2022</time>
-      
-      
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Pingfan&#39;s blog">pingfan is me</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/about/"> About </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
     </div>
-    
-  </header>
-
-  <section><p>实验室一块GPU都没有怎么做深度学习？</p>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Pingfan&#39;s blog">pingfan is me</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/about/" title="">About</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">没有GPU怎么做深度学习</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>pingfan</a></span>&nbsp;<span class="post-category">included in <a href="/categories/computer-science/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Computer Science</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-08-13">2022-08-13</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;24 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
+            </div><div class="content" id="content"><p>实验室一块GPU都没有怎么做深度学习？</p>
 <p>看情况，深度学习也分情况的。</p>
 <p>深度学习可以理解为深度神经网络进行机器学习，而深度神经网络的定义并不都是上百层才算，理论上来说，4层以上或者含有两个隐藏层的网络结构就可以称之为深度。</p>
 <p>如果是层数不多的情况下，CPU也是可以跑的，慢就慢点吧。</p>
 <p>不过在很多的情况下，比如说计算机视觉CV类型的，层数动不动几十上百层，数据集动不动几十个G甚至更大，这种情况必须得用GPU，还得好几块，同时还得搭配容量更大的内存。</p>
 <p>这时候除非你老板给你掏钱买机器，要么你自费买，前者得老板发善心，后者往往一下子掏不起。</p>
-<p><img src="https://www.pingfan.me/blog/static/images/tencent/2022-08-13-12-34-19.png" alt="figure1"></p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://www.pingfan.me/blog/static/images/tencent/2022-08-13-12-34-19.png"
+        data-srcset="https://www.pingfan.me/blog/static/images/tencent/2022-08-13-12-34-19.png, https://www.pingfan.me/blog/static/images/tencent/2022-08-13-12-34-19.png 1.5x, https://www.pingfan.me/blog/static/images/tencent/2022-08-13-12-34-19.png 2x"
+        data-sizes="auto"
+        alt="https://www.pingfan.me/blog/static/images/tencent/2022-08-13-12-34-19.png"
+        title="figure1" /></p>
 <p>那是不是就没办法解决了，其实也有，那就是用云服务器跑深度学习。</p>
 <p>其实这个很好理解，不是所有人都跑过深度学习，但我相信没几个人没用过Office三件套，也就是word，excel和ppt。</p>
 <p>以前我们用的word都得下一个安装包很大的软件，然后打开输入；现在呢，打开office 365，里面不仅有word，还有excel，ppt，onedrive等等。</p>
-<p><img src="2022-08-13-12-43-20.png" alt=""></p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="2022-08-13-12-43-20.png"
+        data-srcset="2022-08-13-12-43-20.png, 2022-08-13-12-43-20.png 1.5x, 2022-08-13-12-43-20.png 2x"
+        data-sizes="auto"
+        alt="2022-08-13-12-43-20.png"
+        title="2022-08-13-12-43-20.png" /></p>
 <p>就比如说word，完全不需要下载软件，在网页上可以直接编辑，这就意味着什么，你可以拜托掉必须要在电脑上才可以办公。</p>
 <p>只有有一个可以打开网页的设备，你就可以查看或者修改你的文件，同时你的文件也都保存在云端。</p>
-<p><img src="2022-08-13-12-48-02.png" alt=""></p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="2022-08-13-12-48-02.png"
+        data-srcset="2022-08-13-12-48-02.png, 2022-08-13-12-48-02.png 1.5x, 2022-08-13-12-48-02.png 2x"
+        data-sizes="auto"
+        alt="2022-08-13-12-48-02.png"
+        title="2022-08-13-12-48-02.png" /></p>
 <p>这样也有巨大的好处，比如以前你出门需要带个U盘，但是忘了带或者坏了就完蛋了，但是云端的好处就是几乎不会丢，还用担心存储设备会坏掉。</p>
 <p>那我要说的云服务器跑深度学习也是这个道理。</p>
 <p>我们在本地跑深度学习的原理是什么？</p>
 <p>可以从这个图中看到，我们缺的就是计算资源，本地的计算资源就是GPU显卡，太贵了，买不起！</p>
 <p>但是计算资源是抽象的，你管它是从GPU来的，还是别的地方来的。</p>
 <p>这时候云计算资源就有用处了，我们可以用云计算资源来跑深度学习，只不过我们需要把数据和环境在云环境中配置一下，其余都是一样的，同时，我们还可以摆脱大块头电脑，仅仅需要一个带有浏览器的设备就可以跑深度学习。</p>
-<p><img src="deep_learning.jpg" alt=""></p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="deep_learning.jpg"
+        data-srcset="deep_learning.jpg, deep_learning.jpg 1.5x, deep_learning.jpg 2x"
+        data-sizes="auto"
+        alt="deep_learning.jpg"
+        title="deep_learning.jpg" /></p>
 <p>我用过两个云服务器跑深度学习，一个是colab，也就是google推出的那个，好处多多，但坏处有一个，也很致命，那就是我推荐给不少人之后，发现他们压根打不开，或者访问速度很慢，在国内的同学我其实不是很推荐。</p>
 <p>另一个就是腾讯云服务器，这个是之前搞活动的时候我看到有免费赠送的云服务器，我就去白嫖了一段时间。</p>
 <p>现在这个白嫖活动好像结束了，但是有类似的活动，一块钱用15天，其实也相当于是免费的。</p>
 <p>【腾讯云】多款云产品1折起，买云服务器送免费机器，最长免费续3个月</p>
-<p><a href="https://cloud.tencent.com/act/cps/redirect?redirect=2446&amp;cps_key=e743b84aa5dbd1d87fc3965e46050a69&amp;from=console">https://cloud.tencent.com/act/cps/redirect?redirect=2446&amp;cps_key=e743b84aa5dbd1d87fc3965e46050a69&amp;from=console</a></p>
+<p><a href="https://cloud.tencent.com/act/cps/redirect?redirect=2446&amp;cps_key=e743b84aa5dbd1d87fc3965e46050a69&amp;from=console" target="_blank" rel="noopener noreffer ">https://cloud.tencent.com/act/cps/redirect?redirect=2446&cps_key=e743b84aa5dbd1d87fc3965e46050a69&from=console</a></p>
 <p>至于如何用腾讯云跑深度学习，这篇文章一步步的介绍了这个过程，包括了购买、使用以及准备深度学习的过程。</p>
-</section>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2022-08-13</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
 
-  
-  
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/gpu/">GPU</a>,&nbsp;<a href="/tags/deep-learning/">deep learning</a>,&nbsp;<a href="/tags/ai/">AI</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
 
-  
-  
-  
-  <nav class="mt-24 flex rounded-lg bg-black/[3%] text-lg dark:bg-white/[8%]">
-    
-    
-    <a
-      class="ml-auto flex w-1/2 items-center justify-end p-6 pl-3 no-underline"
-      href="https://pingfan.me/posts/latex/"
-      ><span>Latex</span><span class="ml-1.5">→</span></a
-    >
-    
-  </nav>
-  
+    <div class="post-nav"><a href="/posts/latex/" class="prev" rel="prev" title="Latex"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Latex</a>
+            <a href="/posts/cs/create_blog_with_zero_experience/" class="next" rel="next" title="如何零基础零费用的在30分钟内创建一个专属于你的个人博客">如何零基础零费用的在30分钟内创建一个专属于你的个人博客<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.101.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span></div>
+        </div>
+    </footer></div>
 
-  
-  
-</article>
-
-
-    </main>
-
-    <footer class="opaco mx-auto flex h-[5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-60">
-  <div class="mr-auto">
-    &copy; 2022
-    <a class="link" href="https://pingfan.me/">Pingfan</a>
-  </div>
-  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank">Powered by Hugo️️</a
-  >️
-  <a class="link" href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank"
-    >▷ Paper 6</a
-  >
-</footer>
-
-  </body>
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
 </html>

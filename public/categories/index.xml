@@ -1,10 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Categories on Pingfan</title>
-    <link>https://pingfan.me/categories/</link>
-    <description>Recent content in Categories on Pingfan</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://pingfan.me/categories/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Categories - Category - Pingfan&#39;s blog</title>
+        <link>https://pingfan.me/categories/</link>
+        <description>Categories - Category - Pingfan&#39;s blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 22 Aug 2022 17:19:48 &#43;0100</lastBuildDate><atom:link href="https://pingfan.me/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>Blog</title>
+    <link>https://pingfan.me/categories/blog/</link>
+    <pubDate>Mon, 22 Aug 2022 17:19:48 &#43;0100</pubDate>
+    <author>Author</author>
+    <guid>https://pingfan.me/categories/blog/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Computer Science</title>
+    <link>https://pingfan.me/categories/computer-science/</link>
+    <pubDate>Sat, 13 Aug 2022 12:25:08 &#43;0100</pubDate>
+    <author>Author</author>
+    <guid>https://pingfan.me/categories/computer-science/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>LaTex</title>
+    <link>https://pingfan.me/categories/latex/</link>
+    <pubDate>Sat, 06 Aug 2022 12:55:55 &#43;0100</pubDate>
+    <author>Author</author>
+    <guid>https://pingfan.me/categories/latex/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Markdown</title>
+    <link>https://pingfan.me/categories/markdown/</link>
+    <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://pingfan.me/categories/markdown/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
 </rss>
