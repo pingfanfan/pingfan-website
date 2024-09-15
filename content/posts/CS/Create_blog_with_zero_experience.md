@@ -30,10 +30,8 @@ categories: ["Blog"]
 
 第二个版本为github版本，利用github pages的免费host和自动部署功能，不需要花一分钱就可以拥有自己的博客。
 
-```markdown
-{{</* bilibili BV1Sx411T7QQ */>}}
+<!-- {{</* bilibili BV1Sx411T7QQ */>}} -->
 
-```
 
 ## 前置准备
 
