@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>All Posts - Pingfan&#39;s blog</title>
-        <link>https://pingfan.me/posts/</link>
+        <link>http://localhost:1313/posts/</link>
         <description>All Posts | Pingfan&#39;s blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 13 Oct 2022 22:24:44 &#43;0100</lastBuildDate><atom:link href="https://pingfan.me/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 13 Oct 2022 22:24:44 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
     <title>转载《1368个单词就够了》</title>
-    <link>https://pingfan.me/posts/try/1/</link>
+    <link>http://localhost:1313/posts/try/1/</link>
     <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate>
     <author>Dillon</author>
-    <guid>https://pingfan.me/posts/try/1/</guid>
+    <guid>http://localhost:1313/posts/try/1/</guid>
     <description><![CDATA[<p>为什么只需要1368个单词</p>
 <h2 id="前言">前言</h2>
 <p>1368个单词搞定英语口语，开玩笑吧？</p>
@@ -62,10 +62,10 @@
 </item>
 <item>
     <title>对于初学者友好的Python微型小例子，附有答案</title>
-    <link>https://pingfan.me/posts/cs/python_jupyter_project/</link>
+    <link>http://localhost:1313/posts/cs/python_jupyter_project/</link>
     <pubDate>Sun, 11 Sep 2022 15:51:08 &#43;0100</pubDate>
     <author>Author</author>
-    <guid>https://pingfan.me/posts/cs/python_jupyter_project/</guid>
+    <guid>http://localhost:1313/posts/cs/python_jupyter_project/</guid>
     <description><![CDATA[<p>这个真的有，网上大多的python项目其实对于初学者都很不友好，因为初学者主要是想复习下刚刚学到的基础知识，比如输入输出字符串，做一些加减法，再操作一下文件的增删改查等等。</p>
 <p>而大多数的教程的难度其实大多数初学者难以接受，并且看完之后被打击的很厉害，以至于懒得学了。</p>
 <p>也得益于python的使用者众多，还有互联网的开源精神，还是可以找到不少的对<strong>初学者</strong>友好的例子的。</p>
@@ -103,10 +103,10 @@
 </item>
 <item>
     <title>如何零基础零费用的在30分钟内创建一个专属于你的个人博客</title>
-    <link>https://pingfan.me/posts/cs/create_blog_with_zero_experience/</link>
+    <link>http://localhost:1313/posts/cs/create_blog_with_zero_experience/</link>
     <pubDate>Mon, 22 Aug 2022 17:19:48 &#43;0100</pubDate>
     <author>pingfan</author>
-    <guid>https://pingfan.me/posts/cs/create_blog_with_zero_experience/</guid>
+    <guid>http://localhost:1313/posts/cs/create_blog_with_zero_experience/</guid>
     <description><![CDATA[<!-- raw HTML omitted -->
 <p>写这篇文章的原因是在网上看了很多的教程，踩了不少的坑，更多的白费了很多功夫，也没找到一篇从头到尾完整有效的个人建站方法。</p>
 <p>有些教程年代久远，有些教程极为繁琐，有些教程压根跑不通。</p>
@@ -118,7 +118,8 @@
 <p>总共分为两个版本：</p>
 <p>第一个版本为通用版本，利用云服务器的host功能，一个月仅需要花费一杯咖啡的钱。</p>
 <p>第二个版本为github版本，利用github pages的免费host和自动部署功能，不需要花一分钱就可以拥有自己的博客。</p>
-<h2 id="前置准备">前置准备</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">bilibili</span> <span style="color:#a6e22e">BV1Sx411T7QQ</span> &gt;}}
+</span></span></code></pre></div><h2 id="前置准备">前置准备</h2>
 <h3 id="mac-和-linux">Mac 和 linux</h3>
 <p>需要：homebrew，git包管理，Node.js, vscode(推荐)</p>
 <p> </p>
@@ -158,10 +159,10 @@
 </item>
 <item>
     <title>没有GPU怎么做深度学习</title>
-    <link>https://pingfan.me/posts/cs/tecent_cloud/</link>
+    <link>http://localhost:1313/posts/cs/tecent_cloud/</link>
     <pubDate>Sat, 13 Aug 2022 12:25:08 &#43;0100</pubDate>
     <author>pingfan</author>
-    <guid>https://pingfan.me/posts/cs/tecent_cloud/</guid>
+    <guid>http://localhost:1313/posts/cs/tecent_cloud/</guid>
     <description><![CDATA[<p>实验室一块GPU都没有怎么做深度学习？</p>
 <p>看情况，深度学习也分情况的。</p>
 <p>深度学习可以理解为深度神经网络进行机器学习，而深度神经网络的定义并不都是上百层才算，理论上来说，4层以上或者含有两个隐藏层的网络结构就可以称之为深度。</p>
@@ -192,19 +193,19 @@
 </item>
 <item>
     <title>IELTS</title>
-    <link>https://pingfan.me/posts/ielts/</link>
+    <link>http://localhost:1313/posts/ielts/</link>
     <pubDate>Sat, 06 Aug 2022 22:23:14 &#43;0100</pubDate>
     <author>Author</author>
-    <guid>https://pingfan.me/posts/ielts/</guid>
+    <guid>http://localhost:1313/posts/ielts/</guid>
     <description><![CDATA[<h1 id="this-is-index">This is index</h1>
 <p>Some contents</p>]]></description>
 </item>
 <item>
     <title>Latex</title>
-    <link>https://pingfan.me/posts/latex/</link>
+    <link>http://localhost:1313/posts/latex/</link>
     <pubDate>Sat, 06 Aug 2022 12:55:55 &#43;0100</pubDate>
     <author>pingfan</author>
-    <guid>https://pingfan.me/posts/latex/</guid>
+    <guid>http://localhost:1313/posts/latex/</guid>
     <description><![CDATA[<p>LaTex是一种学习难度有点高，但是学会儿了之后真香的工具。</p>
 <p>我们可以从以下几点比较一下：</p>
 <h1 id="文件处理速度">文件处理速度</h1>
