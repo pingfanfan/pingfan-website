@@ -92,18 +92,18 @@ brew install hugo
 
 ## 学会在命令行中创建blog 
 
-{{< admonition title = "注意！" open = true >}} 
+<!-- {{< admonition title = "注意！" open = true >}} 
   每一步命令输入后按「回车键」 
-{{< /admonition >}}
+{{< /admonition >}} -->
 
 windows：在搜索栏中输入cmd或者命令行
 
 mac：找到Terminal
 
 
-{{< admonition type=tip title="正文正式开始" open=true >}}
+<!-- {{< admonition type=tip title="正文正式开始" open=true >}}
 使用hugo创建一个blog项目
-{{< /admonition >}}
+{{< /admonition >}} -->
 
 
 ### 创建一个新的blog
