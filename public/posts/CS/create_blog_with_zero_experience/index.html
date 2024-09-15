@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>如何零基础零费用的在30分钟内创建一个专属于你的个人博客 - Pingfan&#39;s blog</title><meta name="Description" content="This is my cool site"><meta property="og:title" content="如何零基础零费用的在30分钟内创建一个专属于你的个人博客" />
-<meta property="og:description" content="写这篇文章的原因是在网上看了很多的教程，踩了不少的坑，更多的白费了很多功夫，也没找到一篇从头到尾完整有效的个人建站方法。
+        <title>如何零基础零费用的在30分钟内创建一个专属于你的个人博客 - Pingfan&#39;s blog</title><meta name="Description" content="This is my cool site"><meta property="og:url" content="http://localhost:1313/posts/cs/create_blog_with_zero_experience/">
+  <meta property="og:site_name" content="Pingfan&#39;s blog">
+  <meta property="og:title" content="如何零基础零费用的在30分钟内创建一个专属于你的个人博客">
+  <meta property="og:description" content=" 写这篇文章的原因是在网上看了很多的教程，踩了不少的坑，更多的白费了很多功夫，也没找到一篇从头到尾完整有效的个人建站方法。
 有些教程年代久远，有些教程极为繁琐，有些教程压根跑不通。
 为了方便自己，做个记录，也方便大家，在这个人人都可以发声的时代，又感觉人人的喉咙都被扼住了。
 虽然大家在各个媒体平台都有自己的账号，但是给自己留一份自己的自留地，貌似也不会是什么坏事。
@@ -27,19 +29,19 @@ Node.js下载链接
 准备 hugo 环境 我们用hugo来写个人博客，它是一个非常快捷和友好的博客框架。
 mac 安装方法：命令行种输入 brew install hugo Windows安装方法 比mac要麻烦点，但是安装方法很详细。
 windows版本的安装方法
-学会在命令行中创建blog 注意！ 每一步命令输入后按「回车键」 windows：在搜索栏中输入cmd或者命令行
-mac：找到Terminal
-正文正式开始 使用hugo创建一个blog项目 创建一个新的blog 使用命令hugo new site来创建一个博客，pingfan-blog这个名字可以根据自己的需要改
-hugo new site pingfan-blog 进入刚刚创建好的博客文件夹中 在命令行中使用cd命令
-cd pingfan-blog 给博客加个皮肤，一次复制&#43;粘贴三行代码到命令行中 第一行：把当前目录进行github仓库的初始化" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://pingfan.me/posts/cs/create_blog_with_zero_experience/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-08-22T17:19:48+01:00" />
-<meta property="article:modified_time" content="2022-08-22T17:19:48+01:00" /><meta property="og:site_name" content="My cool site" />
+学会在命令行中创建blog 注意！ 每一步命令输入后按「回车键」 windows：在搜索栏中输入cmd或者命令行">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2022-08-22T17:19:48+01:00">
+    <meta property="article:modified_time" content="2022-08-22T17:19:48+01:00">
+    <meta property="article:tag" content="Blog">
+    <meta property="article:tag" content="Hugo">
+    <meta property="article:tag" content="Cloud">
 
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="如何零基础零费用的在30分钟内创建一个专属于你的个人博客"/>
-<meta name="twitter:description" content="写这篇文章的原因是在网上看了很多的教程，踩了不少的坑，更多的白费了很多功夫，也没找到一篇从头到尾完整有效的个人建站方法。
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="如何零基础零费用的在30分钟内创建一个专属于你的个人博客">
+  <meta name="twitter:description" content=" 写这篇文章的原因是在网上看了很多的教程，踩了不少的坑，更多的白费了很多功夫，也没找到一篇从头到尾完整有效的个人建站方法。
 有些教程年代久远，有些教程极为繁琐，有些教程压根跑不通。
 为了方便自己，做个记录，也方便大家，在这个人人都可以发声的时代，又感觉人人的喉咙都被扼住了。
 虽然大家在各个媒体平台都有自己的账号，但是给自己留一份自己的自留地，貌似也不会是什么坏事。
@@ -61,17 +63,13 @@ Node.js下载链接
 准备 hugo 环境 我们用hugo来写个人博客，它是一个非常快捷和友好的博客框架。
 mac 安装方法：命令行种输入 brew install hugo Windows安装方法 比mac要麻烦点，但是安装方法很详细。
 windows版本的安装方法
-学会在命令行中创建blog 注意！ 每一步命令输入后按「回车键」 windows：在搜索栏中输入cmd或者命令行
-mac：找到Terminal
-正文正式开始 使用hugo创建一个blog项目 创建一个新的blog 使用命令hugo new site来创建一个博客，pingfan-blog这个名字可以根据自己的需要改
-hugo new site pingfan-blog 进入刚刚创建好的博客文件夹中 在命令行中使用cd命令
-cd pingfan-blog 给博客加个皮肤，一次复制&#43;粘贴三行代码到命令行中 第一行：把当前目录进行github仓库的初始化"/>
+学会在命令行中创建blog 注意！ 每一步命令输入后按「回车键」 windows：在搜索栏中输入cmd或者命令行">
 <meta name="application-name" content="My cool site">
 <meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://pingfan.me/posts/cs/create_blog_with_zero_experience/" /><link rel="prev" href="https://pingfan.me/posts/cs/tecent_cloud/" /><link rel="next" href="https://pingfan.me/posts/cs/python_jupyter_project/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/posts/cs/create_blog_with_zero_experience/" /><link rel="prev" href="http://localhost:1313/posts/cs/tecent_cloud/" /><link rel="next" href="http://localhost:1313/posts/cs/python_jupyter_project/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
@@ -79,9 +77,9 @@ cd pingfan-blog 给博客加个皮肤，一次复制&#43;粘贴三行代码到�
         "inLanguage": "en-us",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/pingfan.me\/posts\/cs\/create_blog_with_zero_experience\/"
+            "@id": "http:\/\/localhost:1313\/posts\/cs\/create_blog_with_zero_experience\/"
         },"genre": "posts","keywords": "Blog, Hugo, Cloud","wordcount":  333 ,
-        "url": "https:\/\/pingfan.me\/posts\/cs\/create_blog_with_zero_experience\/","datePublished": "2022-08-22T17:19:48+01:00","dateModified": "2022-08-22T17:19:48+01:00","publisher": {
+        "url": "http:\/\/localhost:1313\/posts\/cs\/create_blog_with_zero_experience\/","datePublished": "2022-08-22T17:19:48+01:00","dateModified": "2022-08-22T17:19:48+01:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
                 "@type": "Person",
@@ -289,9 +287,9 @@ cd pingfan-blog 给博客加个皮肤，一次复制&#43;粘贴三行代码到�
         </div>
     </div>
 <p>浏览器中出现如下界面说明你成功了</p>
-<figure><img src="https://raw.githubusercontent.com/jzxywpf/pictures/main/zero-experience/blog-preview.png"/><figcaption>
-            <h4>博客预览图</h4>
-        </figcaption>
+<figure><img src="https://raw.githubusercontent.com/jzxywpf/pictures/main/zero-experience/blog-preview.png"><figcaption>
+      <h4>博客预览图</h4>
+    </figcaption>
 </figure>
 
 <!-- raw HTML omitted -->
@@ -304,15 +302,15 @@ cd pingfan-blog 给博客加个皮肤，一次复制&#43;粘贴三行代码到�
 <p>这里我使用的是腾讯云的cloudbase，可以通过下面这个链接，选择新用户体验券后可以免费体验一个月。</p>
 <p><a href="https://curl.qcloud.com/ywYsIFMs" target="_blank" rel="noopener noreffer ">腾讯云cloudbase免费试用一个月链接</a></p>
 <p>添加成功后点击【控制台-&gt;云产品-&gt;cloudbase】，点开可以看到如下内容。</p>
-<figure><img src="https://pic4.zhimg.com/80/v2-e19943a4ac2bfae28ffd8e1f272cf985_720w.png?source=d16d100b"/><figcaption>
-            <h4>cloudbase云产品</h4>
-        </figcaption>
+<figure><img src="https://pic4.zhimg.com/80/v2-e19943a4ac2bfae28ffd8e1f272cf985_720w.png?source=d16d100b"><figcaption>
+      <h4>cloudbase云产品</h4>
+    </figcaption>
 </figure>
 
 <h3 id="2-创建好后得到了一个环境id待会儿要用到">2. 创建好后得到了一个<strong>环境ID</strong>，待会儿要用到</h3>
-<figure><img src="https://pica.zhimg.com/80/v2-f768a5cd959a106df3281e315f52f964_720w.png?source=d16d100b"/><figcaption>
-            <h4>环境ID</h4>
-        </figcaption>
+<figure><img src="https://pica.zhimg.com/80/v2-f768a5cd959a106df3281e315f52f964_720w.png?source=d16d100b"><figcaption>
+      <h4>环境ID</h4>
+    </figcaption>
 </figure>
 
 <h3 id="3-在本地安装nodejs">3. 在本地安装Node.js</h3>
@@ -325,28 +323,28 @@ cd pingfan-blog 给博客加个皮肤，一次复制&#43;粘贴三行代码到�
 </span></span></code></pre></div><h3 id="5-登录云开发">5. 登录云开发</h3>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>tcb login
 </span></span></code></pre></div><h3 id="6-在弹出的页面中单击确认授权进行授权">6. 在弹出的页面中单击<strong>确认授权</strong>进行授权</h3>
-<figure><img src="https://pic2.zhimg.com/80/v2-bdfc3508a5a012a987c8ea8a77fd8015_720w.png"/>
+<figure><img src="https://pic2.zhimg.com/80/v2-bdfc3508a5a012a987c8ea8a77fd8015_720w.png">
 </figure>
 
 <h3 id="7-执行以下命令把public文件夹部署到云服务器上把envid换成刚刚的环境id">7. 执行以下命令，把public文件夹部署到云服务器上（把EnvID换成刚刚的<strong>环境ID</strong>）</h3>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cloudbase hosting deploy ./public  -e EnvID
 </span></span></code></pre></div><h3 id="8登录云开发控制台">8.登录云开发控制台</h3>
 <p>进入静态网站托管页面，可以找到默认的域名，单击域名，就可以看到你的博客已经部署成功了。</p>
-<figure><img src="https://pica.zhimg.com/80/v2-08aa7b7b349d2c99e90193367312a180_720w.png?source=d16d100b"/><figcaption>
-            <h4>腾讯云控制台</h4>
-        </figcaption>
+<figure><img src="https://pica.zhimg.com/80/v2-08aa7b7b349d2c99e90193367312a180_720w.png?source=d16d100b"><figcaption>
+      <h4>腾讯云控制台</h4>
+    </figcaption>
 </figure>
 
 <p>下面就是自动生成的域名</p>
-<figure><img src="https://pic1.zhimg.com/80/v2-ce0768eca6594f551b366d8a82a129d9_720w.png?source=d16d100b"/><figcaption>
-            <h4>自动生成的域名</h4>
-        </figcaption>
+<figure><img src="https://pic1.zhimg.com/80/v2-ce0768eca6594f551b366d8a82a129d9_720w.png?source=d16d100b"><figcaption>
+      <h4>自动生成的域名</h4>
+    </figcaption>
 </figure>
 
 <p>出现如下界面表明创建成功了</p>
-<figure><img src="https://pic1.zhimg.com/80/v2-a1be93cb8f24f4604de820a1a77193dc_720w.png?source=d16d100b"/><figcaption>
-            <h4>成功了！</h4>
-        </figcaption>
+<figure><img src="https://pic1.zhimg.com/80/v2-a1be93cb8f24f4604de820a1a77193dc_720w.png?source=d16d100b"><figcaption>
+      <h4>成功了！</h4>
+    </figcaption>
 </figure>
 
 <h2 id="使用github进行托管">使用Github进行托管</h2>
@@ -411,22 +409,22 @@ cd pingfan-blog 给博客加个皮肤，一次复制&#43;粘贴三行代码到�
 </span></span><span style="display:flex;"><span>git push
 </span></span></code></pre></div><h3 id="9-成功的话我们会发现所有的内容都上传到github了">9. 成功的话，我们会发现所有的内容都上传到github了</h3>
 <h3 id="10-找到刚刚的github仓库点击actions就可以看到我们的网站部署成功了">10. 找到刚刚的github仓库，点击Actions，就可以看到我们的网站部署成功了</h3>
-<figure><img src="https://pic1.zhimg.com/80/v2-14b67e4a795309a717df6d0d8caf20a4_720w.png?source=d16d100b"/><figcaption>
-            <h4>博客由github自动部署了</h4>
-        </figcaption>
+<figure><img src="https://pic1.zhimg.com/80/v2-14b67e4a795309a717df6d0d8caf20a4_720w.png?source=d16d100b"><figcaption>
+      <h4>博客由github自动部署了</h4>
+    </figcaption>
 </figure>
 
 <h3 id="11-修改branch为gh-pages位置在settings-pages那里">11. 修改branch为gh-pages，位置在settings-&gt;Pages那里</h3>
-<figure><img src="https://pic1.zhimg.com/80/v2-2a00d39f27c447842115820e092df084_720w.png?source=d16d100b"/>
+<figure><img src="https://pic1.zhimg.com/80/v2-2a00d39f27c447842115820e092df084_720w.png?source=d16d100b">
 </figure>
 
 <h3 id="11-最后一步修改hugo的baseurl">11. 最后一步，修改hugo的baseURL</h3>
 <p>在github的仓库中找到Settings-&gt;Pages，找到为https://******.github.io/pingfan-blog</p>
-<p><figure><img src="https://pic3.zhimg.com/80/v2-ab3c0e5a5b7da0e9d0cd8d90bc55497a_720w.png?source=d16d100b"/>
+<p><figure><img src="https://pic3.zhimg.com/80/v2-ab3c0e5a5b7da0e9d0cd8d90bc55497a_720w.png?source=d16d100b">
 </figure>
 
 复制粘贴，打开config.toml，然后替换掉原先的。
-<figure><img src="https://pica.zhimg.com/80/v2-6fa10f8b021e5d9c7ec7af3ac52aa5d7_720w.png?source=d16d100b"/>
+<figure><img src="https://pica.zhimg.com/80/v2-6fa10f8b021e5d9c7ec7af3ac52aa5d7_720w.png?source=d16d100b">
 </figure>
 </p>
 <h3 id="12-再走一遍">12. 再走一遍</h3>
@@ -436,7 +434,7 @@ cd pingfan-blog 给博客加个皮肤，一次复制&#43;粘贴三行代码到�
 </span></span><span style="display:flex;"><span>git push
 </span></span></code></pre></div><h3 id="13-打开github点开pages点击sourse选择gh-pages结束">13. 打开github，点开pages，点击sourse，选择gh-pages，结束</h3>
 <p>我这个是换成了我自己购买的域名，所以会显示的不一样，你也可以买一个自己喜欢的域名，而不是默认的域名。
-<figure><img src="https://picx.zhimg.com/80/v2-4d3a3c89c06778c80ff39fac9bc2fc5c_720w.png"/>
+<figure><img src="https://picx.zhimg.com/80/v2-4d3a3c89c06778c80ff39fac9bc2fc5c_720w.png">
 </figure>
 </p>
 <p>这是我的<a href="https://www.pingfan.me" target="_blank" rel="noopener noreffer ">域名</a>。</p>
@@ -469,8 +467,8 @@ cd pingfan-blog 给博客加个皮肤，一次复制&#43;粘贴三行代码到�
 </div>
 </article></div>
             </main><footer class="footer">
-        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.101.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
-                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span></div>
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.134.2">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2024</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span></div>
         </div>
     </footer></div>
 
@@ -479,5 +477,5 @@ cd pingfan-blog 给博客加个皮肤，一次复制&#43;粘贴三行代码到�
             </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
                 <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
             </a>
-        </div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+        </div><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
 </html>

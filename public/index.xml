@@ -1,175 +1,245 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Pingfan&#39;s blog</title>
-        <link>https://pingfan.me/</link>
+        <link>http://localhost:1313/</link>
         <description>This is my cool site</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 02 Jan 2023 14:44:55 &#43;0000</lastBuildDate>
-            <atom:link href="https://pingfan.me/index.xml" rel="self" type="application/rss+xml" />
+            <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>转载《1368个单词就够了》</title>
-    <link>https://pingfan.me/posts/try/1/</link>
+    <link>http://localhost:1313/posts/try/1/</link>
     <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate>
     <author>Dillon</author>
-    <guid>https://pingfan.me/posts/try/1/</guid>
-    <description><![CDATA[为什么只需要1368个单词
-前言 1368个单词搞定英语口语，开玩笑吧？
-读者一定会想：“我过了大学英语四级，当年没日没夜狂背4000个单词，咋还开不了口？你这1368个单词和一个初中生的词汇量差不多，有几个初中生口语好的？噱头别起太高了，当心摔着。没人扶啊！”
-说实话，当我费劲巴力地参考了大量的专业书籍，砖头厚的牛津、朗文、科林斯大词典一页一页地翻过去，用中英文吭吭哧哧一个词一个词地反复验证，历经四年长达一千多天的教学实践得出这么一个结果的时候，连我自己都吓了一跳。
-以前的传说还真不是盖的啊！有人说美国西部农民一辈子只用700多个单词，而我的词汇表只比加州farmer用的多出几百个。
-各位质疑的眼神我非常理解，当年我还是一个英语菜鸟时也曾坚定地相信英语是不要脸喊出来的，但后来发现那更适合训练传销组织。学英语确实不能要脸，但除此之外，还得要方法。
-如果我只是人云亦云地告诉你们学口语要“多说多练”，那别说1368个单词，再加个“0”也未必够用。
-为什么是1368个单词，而不是1369个单词，也不是1367个单词？既然能精确到个位，就一定有它的缘由、出处以及科学道理。那么这1368个单词的背后是什么样的科学依据呢？
-除此之外，还有更多的问题。比如，是哪1368个单词？要怎么学这1368个单词？学完要怎么练这1368个单词？练完之后能达到什么样的程度？
-这种种的困惑，我在书中将一一解答。
-上篇　为什么只需要1368个单词？ 先说明一件事。
-这个词汇表（以下称为R词汇表。R是我英文名字Robbin的首字母，请允许我虚荣一把吧）看上去只有1368个单词，但在真正使用的时候却远远不止1368个用法。学过英语的人都知道，英语单词的各种性啊，形啊，义啊，短语啊能把一个单词的意思扩充出很多很多。下面就具体说一下。
-一、该表只统计了词汇的单一形式
-也就是说，那些和某个词长得差不多的其他形式的单词并未计算在内。比如说，play这个词，大家都知道它当动词用的时候是“玩”的意思，其实它也可以当名词用，意思是“戏剧”。我们就只在R词汇表里计算一次。另外像agree与agreement，长得一个短一个长，我们也只统计了那个短的。
-事实上，R词汇表中的大部分词汇都有两种或两种以上的变身，像up和down就可以分别变身为动词、介词、名词、副词、形容词五种形式，（比猪八戒的三十六变少，但比白骨精的多，开个玩笑）。但我们大多只会把它当介词和副词用，对其他三种用法就知之甚少了。其实，这三种是相当有用的，学会了也可以帮我们降妖伏魔，脱离表达困境。要是把这些形式也算上去的话，就算按每个单词最低两种变身计算，词汇量也可以膨胀一倍了。
-二、表中的大部分单词都有多个意思与用法
-这个也不难理解。尤其值得一提的是动词。就拿give来说吧，这个词简单到不能再简单了，就连幼儿园的小朋友都认识。但如果你只是把它当“给”来用的话，那可就真的是小儿科喽！
-单就朗文词典的统计，它就有多达46层意思。要是再加上它与on, off, up, down等其他有着超级功能的小品词所组成的超级短语组合，那就更牛了，其用法可以多达76种，这还不算什么slang（俚语）啊，idiom（成语）啊。羡慕吧？不急，在后面的章节中，你会一睹它的芳容。它是在我教学的过程中最受学员倾慕的高富帅单词之一。
-当然，这么多用法也并不是要求我们都要掌握，孙悟空会七十二变，我们最多也就见他变变美女什么的，不实用不好看的咱也放着不用。但就算是按平均每个单词三层意思来计算（这可是保守得不能再保守的计算啦），R词汇表中的词汇也可以扩充出三倍的用法来……有点感觉了没？
-说到现在，大家计算一下这1368个单词经过变身之后可以得到多少新的功能了。一一得一，二九一十八……哎哟，掐指一算，快过万了！就像爆米花一样，小小一勺进去，满满一桶出来。数好算，关键你得掌握这爆米花的火候与技术。
-如何解决1368个单词外的表达问题？ 虽然说这个R词汇表可以通过变身膨胀数倍，但与整个英语大家庭比起来，这点量还是少得可怜。
-英语一共有多少个词汇？不知道，反正非常多，多到没人能说出确切数量。可以用来做参考的是，第二版的牛津大词典一共收录了17万个词，这17万个还不包括变身的词。也就是说，我们的R词汇表中的词还不到人家的1%。
-够吗？
-如果说语言的表达功能是一一对应的，也就是说一件事只有一种说法，那咱这点词还真的不够用，一千来个词说不了几句就不够用了。但幸运的是，语言是一个应变能力特别强的东西。同样一句话，你既可以正着说，也可以反着说；既可以文绉绉地说，也可以土了吧唧地说；既可以用这个词说，也可以用那个词说；既可以用一句话说，也可以用几句话说。这么一来，咱这点词应该就够用了。不但够用，而且还能说出花样来。
-先给大家举个简单的例子。
-比如说，大家想表达这么一个意思：
-小儿子继承了她所有的财产。
-通常情况下，这句话会被翻译成下面这个样子：
-Her youngest son inherited all her property.
-如果你恰巧知道inherit这个词，也熟悉property这个词，OK，问题解决了。但很不幸的是，你是跟着Robbin老师学的，Robbin老师的词汇表里没有inherit这个词，只有property，怎么办？你会不会大骂Robbin老师是个骗子？那我告诉你，我不但能教你把这个意思表达出来，还能教你变着花样地把这句话表达出来！
-根据我的教学，这句话至少有以下四种表达方式：
-Her youngest son got all her property.*
-She gave all the property to her youngest son.*
-All her property goes to her youngest son.*
-最后一句是教给那些连property都背不下来的：
-She gave her youngest son all she had.]]></description>
+    <guid>http://localhost:1313/posts/try/1/</guid>
+    <description><![CDATA[<p>为什么只需要1368个单词</p>
+<h2 id="前言">前言</h2>
+<p>1368个单词搞定英语口语，开玩笑吧？</p>
+<p>读者一定会想：“我过了大学英语四级，当年没日没夜狂背4000个单词，咋还开不了口？你这1368个单词和一个初中生的词汇量差不多，有几个初中生口语好的？噱头别起太高了，当心摔着。没人扶啊！”</p>
+<p>说实话，当我费劲巴力地参考了大量的专业书籍，砖头厚的牛津、朗文、科林斯大词典一页一页地翻过去，用中英文吭吭哧哧一个词一个词地反复验证，历经四年长达一千多天的教学实践得出这么一个结果的时候，连我自己都吓了一跳。</p>
+<p>以前的传说还真不是盖的啊！有人说美国西部农民一辈子只用700多个单词，而我的词汇表只比加州farmer用的多出几百个。</p>
+<p>各位质疑的眼神我非常理解，当年我还是一个英语菜鸟时也曾坚定地相信英语是不要脸喊出来的，但后来发现那更适合训练传销组织。学英语确实不能要脸，但除此之外，还得要方法。</p>
+<p>如果我只是人云亦云地告诉你们学口语要“多说多练”，那别说1368个单词，再加个“0”也未必够用。</p>
+<p>为什么是1368个单词，而不是1369个单词，也不是1367个单词？既然能精确到个位，就一定有它的缘由、出处以及科学道理。那么这1368个单词的背后是什么样的科学依据呢？</p>
+<p>除此之外，还有更多的问题。比如，是哪1368个单词？要怎么学这1368个单词？学完要怎么练这1368个单词？练完之后能达到什么样的程度？</p>
+<p>这种种的困惑，我在书中将一一解答。</p>
+<h2 id="上篇为什么只需要1368个单词">上篇　为什么只需要1368个单词？</h2>
+<p>先说明一件事。</p>
+<p>这个词汇表（以下称为R词汇表。R是我英文名字Robbin的首字母，请允许我虚荣一把吧）看上去只有1368个单词，但在真正使用的时候却远远不止1368个用法。学过英语的人都知道，英语单词的各种性啊，形啊，义啊，短语啊能把一个单词的意思扩充出很多很多。下面就具体说一下。</p>
+<p>一、该表只统计了词汇的单一形式</p>
+<p>也就是说，那些和某个词长得差不多的其他形式的单词并未计算在内。比如说，play这个词，大家都知道它当动词用的时候是“玩”的意思，其实它也可以当名词用，意思是“戏剧”。我们就只在R词汇表里计算一次。另外像agree与agreement，长得一个短一个长，我们也只统计了那个短的。</p>
+<p>事实上，R词汇表中的大部分词汇都有两种或两种以上的变身，像up和down就可以分别变身为动词、介词、名词、副词、形容词五种形式，（比猪八戒的三十六变少，但比白骨精的多，开个玩笑）。但我们大多只会把它当介词和副词用，对其他三种用法就知之甚少了。其实，这三种是相当有用的，学会了也可以帮我们降妖伏魔，脱离表达困境。要是把这些形式也算上去的话，就算按每个单词最低两种变身计算，词汇量也可以膨胀一倍了。</p>
+<p>二、表中的大部分单词都有多个意思与用法</p>
+<p>这个也不难理解。尤其值得一提的是动词。就拿give来说吧，这个词简单到不能再简单了，就连幼儿园的小朋友都认识。但如果你只是把它当“给”来用的话，那可就真的是小儿科喽！</p>
+<p>单就朗文词典的统计，它就有多达46层意思。要是再加上它与on, off, up, down等其他有着超级功能的小品词所组成的超级短语组合，那就更牛了，其用法可以多达76种，这还不算什么slang（俚语）啊，idiom（成语）啊。羡慕吧？不急，在后面的章节中，你会一睹它的芳容。它是在我教学的过程中最受学员倾慕的高富帅单词之一。</p>
+<p>当然，这么多用法也并不是要求我们都要掌握，孙悟空会七十二变，我们最多也就见他变变美女什么的，不实用不好看的咱也放着不用。但就算是按平均每个单词三层意思来计算（这可是保守得不能再保守的计算啦），R词汇表中的词汇也可以扩充出三倍的用法来……有点感觉了没？</p>
+<p>说到现在，大家计算一下这1368个单词经过变身之后可以得到多少新的功能了。一一得一，二九一十八……哎哟，掐指一算，快过万了！就像爆米花一样，小小一勺进去，满满一桶出来。数好算，关键你得掌握这爆米花的火候与技术。</p>
+<h3 id="如何解决1368个单词外的表达问题">如何解决1368个单词外的表达问题？</h3>
+<p>虽然说这个R词汇表可以通过变身膨胀数倍，但与整个英语大家庭比起来，这点量还是少得可怜。</p>
+<p>英语一共有多少个词汇？不知道，反正非常多，多到没人能说出确切数量。可以用来做参考的是，第二版的牛津大词典一共收录了17万个词，这17万个还不包括变身的词。也就是说，我们的R词汇表中的词还不到人家的1%。</p>
+<p>够吗？</p>
+<p>如果说语言的表达功能是一一对应的，也就是说一件事只有一种说法，那咱这点词还真的不够用，一千来个词说不了几句就不够用了。但幸运的是，语言是一个应变能力特别强的东西。同样一句话，你既可以正着说，也可以反着说；既可以文绉绉地说，也可以土了吧唧地说；既可以用这个词说，也可以用那个词说；既可以用一句话说，也可以用几句话说。这么一来，咱这点词应该就够用了。不但够用，而且还能说出花样来。</p>
+<p>先给大家举个简单的例子。</p>
+<p>比如说，大家想表达这么一个意思：</p>
+<p>小儿子继承了她所有的财产。</p>
+<p>通常情况下，这句话会被翻译成下面这个样子：</p>
+<p><em>Her youngest son inherited all her property.</em></p>
+<p>如果你恰巧知道inherit这个词，也熟悉property这个词，OK，问题解决了。但很不幸的是，你是跟着Robbin老师学的，Robbin老师的词汇表里没有inherit这个词，只有property，怎么办？你会不会大骂Robbin老师是个骗子？那我告诉你，我不但能教你把这个意思表达出来，还能教你变着花样地把这句话表达出来！</p>
+<p>根据我的教学，这句话至少有以下四种表达方式：</p>
+<ul>
+<li>
+<p>Her youngest son got all her property.*</p>
+</li>
+<li>
+<p>She gave all the property to her youngest son.*</p>
+</li>
+<li>
+<p>All her property goes to her youngest son.*</p>
+</li>
+</ul>
+<p>最后一句是教给那些连property都背不下来的：</p>
+<ul>
+<li>She gave her youngest son all she had.*</li>
+</ul>
+<p>怎么样？清楚不？好懂不？地道不？简单不？</p>]]></description>
 </item>
 <item>
     <title>对于初学者友好的Python微型小例子，附有答案</title>
-    <link>https://pingfan.me/posts/cs/python_jupyter_project/</link>
+    <link>http://localhost:1313/posts/cs/python_jupyter_project/</link>
     <pubDate>Sun, 11 Sep 2022 15:51:08 &#43;0100</pubDate>
     <author>Author</author>
-    <guid>https://pingfan.me/posts/cs/python_jupyter_project/</guid>
-    <description><![CDATA[这个真的有，网上大多的python项目其实对于初学者都很不友好，因为初学者主要是想复习下刚刚学到的基础知识，比如输入输出字符串，做一些加减法，再操作一下文件的增删改查等等。
-而大多数的教程的难度其实大多数初学者难以接受，并且看完之后被打击的很厉害，以至于懒得学了。
-也得益于python的使用者众多，还有互联网的开源精神，还是可以找到不少的对初学者友好的例子的。
-我这里来列举两个，一个是针对于所有python初学者，不限于你想要从事的工作限制。另一个是针对于想要拿python处理一些数据的同学，它会特别讲两个python库，Numpy 和 Pandas，都是非常基础的，但也是非常非常重要的两个库。
-注意：这两个都是有题目和答案的填空式的教程，对小白确实友好。
-初学者友好小例子 这个项目完全是在jupyter noteboo上做的，至于什么是jupyter notebook，简单来说，它就是写python的一个环境，好处就在于你可以写一行运行一行，特别适合初学者去一步步的搞懂每一步代码会输出什么。
-最重要的是：这个代码你可以直接拿来运行，如果你是非常非常小白的话，大可以直接运行它的答案，一步步的看它是怎么运行的，然后再学。
-print(&#34;hello world!&#34;) # hello world! 就像这样，你打出一行hello world！，下一行就可以输出这行代码。
-这个例子一共有16个小例子，并且每个项目里面都有target和solution。 我们拿第一个例子举例，很简单，就是最初级的字付出的输入输出，简单来说打印出hello world！。
-它同时也包含了几个其他的字符串操作，比如说怎么如何把字母全都变成大写。
-你可以不会，因为你毕竟只是出血，然后只会个print，但是不要急，有答案。
-这你还怕什么，在学习了基础的python知识之后，然后安装一个jupyter notebook，再把这些卷子和答案下载下来，就可以做这些非常简单的小例子了。
-难度很低，你完全可以在很短时间内把这些学完，然后做一些更难的项目。
-数据科学初学者例子 很简单，这个项目是针对于数据科学这一方向的，其实说白了也没多复杂，就是基础的python和数据科学常用库。
-跟上面的那个不同，这个是一整个文件包含了所有的内容。
-这个例子包含了五个分内容：
-分别是：
-python基础 数据结构 控制和方程 numpy pandas 可以看到，跟之前的一样，也是在jupyter notebook里面运行的，你完全可以写一行运行一行学习一行。
-别看只有一个文件，但有8000多行，完全够你把基础内容全部学习并巩固一遍了。
-其中还有5个数据集，穿插在其中，可以进行简单的数据分析以及处理，已经是非常良心了。
-两个例子的下载方式 github下载 这两个例子都是在github上找的，如果你可以直接下载，我推荐你使用这种方式：
-例子1下载链接
-例子2下载链接
-其他方式下载 在我的公号后台发送【python简单例子】，回复给你网盘链接自己下压缩文件。
-jupyter notebook的安装以及使用方式 jupyter notebook的安装以及使用方法
-Python入门简介
-Jupyter Notebook进阶使用
-参考： https://www.zhihu.com/question/29372574]]></description>
+    <guid>http://localhost:1313/posts/cs/python_jupyter_project/</guid>
+    <description><![CDATA[<p>这个真的有，网上大多的python项目其实对于初学者都很不友好，因为初学者主要是想复习下刚刚学到的基础知识，比如输入输出字符串，做一些加减法，再操作一下文件的增删改查等等。</p>
+<p>而大多数的教程的难度其实大多数初学者难以接受，并且看完之后被打击的很厉害，以至于懒得学了。</p>
+<p>也得益于python的使用者众多，还有互联网的开源精神，还是可以找到不少的对<strong>初学者</strong>友好的例子的。</p>
+<p>我这里来列举两个，一个是针对于<strong>所有</strong>python初学者，不限于你想要从事的工作限制。另一个是针对于想要拿python处理一些数据的同学，它会特别讲两个python库，<strong>Numpy</strong> 和 <strong>Pandas</strong>，都是非常基础的，但也是非常非常重要的两个库。</p>
+<p>注意：<strong>这两个都是有题目和答案的填空式的教程，对小白确实友好。</strong></p>
+<h2 id="初学者友好小例子">初学者友好小例子</h2>
+<p>这个项目完全是在jupyter noteboo上做的，至于什么是jupyter notebook，简单来说，它就是写python的一个环境，好处就在于你可以写一行运行一行，特别适合初学者去一步步的搞懂每一步代码会输出什么。</p>
+<p>最重要的是：<strong>这个代码你可以直接拿来运行，如果你是非常非常小白的话，大可以直接运行它的答案，一步步的看它是怎么运行的，然后再学。</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;hello world!&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># hello world!</span>
+</span></span></code></pre></div><p>就像这样，你打出一行hello world！，下一行就可以输出这行代码。</p>
+<p>这个例子一共有16个小例子，并且每个项目里面都有<strong>target</strong>和<strong>solution</strong>。
+</p>
+<p>我们拿第一个例子举例，很简单，就是最初级的字付出的输入输出，简单来说打印出<strong>hello world！</strong>。</p>
+<p>它同时也包含了几个其他的字符串操作，比如说怎么如何把字母全都变成<strong>大写</strong>。</p>
+<p></p>
+<p>你可以不会，因为你毕竟只是出血，然后只会个<strong>print</strong>，但是不要急，有<strong>答案</strong>。</p>
+<p></p>
+<p>这你还怕什么，在学习了基础的python知识之后，然后安装一个<strong>jupyter notebook</strong>，再把这些卷子和答案下载下来，就可以做这些非常简单的小例子了。</p>
+<p>难度很低，你完全可以在很短时间内把这些学完，然后做一些更难的项目。</p>
+<h2 id="数据科学初学者例子">数据科学初学者例子</h2>
+<p>很简单，这个项目是针对于数据科学这一方向的，其实说白了也没多复杂，就是<strong>基础的python</strong>和<strong>数据科学常用库</strong>。</p>
+<p>跟上面的那个不同，这个是一整个文件包含了所有的内容。</p>
+<p>这个例子包含了五个分内容：</p>
+<p>分别是：</p>
+<ul>
+<li>python基础</li>
+<li>数据结构</li>
+<li>控制和方程</li>
+<li>numpy</li>
+<li>pandas</li>
+</ul>
+<p>可以看到，跟之前的一样，也是在<strong>jupyter notebook</strong>里面运行的，你完全可以写一行运行一行学习一行。</p>
+<p></p>]]></description>
 </item>
 <item>
     <title>如何零基础零费用的在30分钟内创建一个专属于你的个人博客</title>
-    <link>https://pingfan.me/posts/cs/create_blog_with_zero_experience/</link>
+    <link>http://localhost:1313/posts/cs/create_blog_with_zero_experience/</link>
     <pubDate>Mon, 22 Aug 2022 17:19:48 &#43;0100</pubDate>
     <author>pingfan</author>
-    <guid>https://pingfan.me/posts/cs/create_blog_with_zero_experience/</guid>
-    <description><![CDATA[写这篇文章的原因是在网上看了很多的教程，踩了不少的坑，更多的白费了很多功夫，也没找到一篇从头到尾完整有效的个人建站方法。
-有些教程年代久远，有些教程极为繁琐，有些教程压根跑不通。
-为了方便自己，做个记录，也方便大家，在这个人人都可以发声的时代，又感觉人人的喉咙都被扼住了。
-虽然大家在各个媒体平台都有自己的账号，但是给自己留一份自己的自留地，貌似也不会是什么坏事。
-这也是我建个人博客的最主要理由，因为有些东西因为这样的或者那样的原因，无法在公域平台发布，那么自己的博客网站，总可以容纳的下。
-建立个人博客的两个方法 这是一套非常简单的方法，我希望可以让每一个人都可以照着这套方法建立自己的博客。
-总共分为两个版本：
-第一个版本为通用版本，利用云服务器的host功能，一个月仅需要花费一杯咖啡的钱。
-第二个版本为github版本，利用github pages的免费host和自动部署功能，不需要花一分钱就可以拥有自己的博客。
-视频版本： 前置准备 Mac 和 linux 需要：homebrew，git包管理，Node.js, vscode(推荐)
-homebrew安装：直接命令行输入
-/bin/bash -c &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&#34; git包管理：直接命令行输入
-brew install git Node.js: 下载安装包后按照默认设置安装
-Node.js下载链接
-Windows 需要：git包管理，hugo预编译文件，Node.js, vscode(推荐)
-git包管理：点击下面链接下载后安装
-git包管理下载链接
-Node.js: 下载安装包后按照默认设置安装
-Node.js下载链接
-准备 hugo 环境 我们用hugo来写个人博客，它是一个非常快捷和友好的博客框架。
-mac 安装方法：命令行种输入 brew install hugo Windows安装方法 比mac要麻烦点，但是安装方法很详细。
-windows版本的安装方法
-学会在命令行中创建blog 注意！ 每一步命令输入后按「回车键」 windows：在搜索栏中输入cmd或者命令行
-mac：找到Terminal
-正文正式开始 使用hugo创建一个blog项目 创建一个新的blog 使用命令hugo new site来创建一个博客，pingfan-blog这个名字可以根据自己的需要改
-hugo new site pingfan-blog 进入刚刚创建好的博客文件夹中 在命令行中使用cd命令
-cd pingfan-blog 给博客加个皮肤，一次复制+粘贴三行代码到命令行中 第一行：把当前目录进行github仓库的初始化]]></description>
+    <guid>http://localhost:1313/posts/cs/create_blog_with_zero_experience/</guid>
+    <description><![CDATA[<!-- raw HTML omitted -->
+<p>写这篇文章的原因是在网上看了很多的教程，踩了不少的坑，更多的白费了很多功夫，也没找到一篇从头到尾完整有效的个人建站方法。</p>
+<p>有些教程年代久远，有些教程极为繁琐，有些教程压根跑不通。</p>
+<p>为了方便自己，做个记录，也方便大家，在这个人人都可以发声的时代，又感觉人人的喉咙都被扼住了。</p>
+<p>虽然大家在各个媒体平台都有自己的账号，但是给自己留一份自己的自留地，貌似也不会是什么坏事。</p>
+<p>这也是我建个人博客的最主要理由，因为有些东西因为这样的或者那样的原因，无法在公域平台发布，那么自己的博客网站，总可以容纳的下。</p>
+<h1 id="建立个人博客的两个方法">建立个人博客的两个方法</h1>
+<p>这是一套非常简单的方法，我希望可以让每一个人都可以照着这套方法建立自己的博客。</p>
+<p>总共分为两个版本：</p>
+<p>第一个版本为通用版本，利用云服务器的host功能，一个月仅需要花费一杯咖啡的钱。</p>
+<p>第二个版本为github版本，利用github pages的免费host和自动部署功能，不需要花一分钱就可以拥有自己的博客。</p>
+<p>视频版本：
+<div class="bilibili"><iframe src="//player.bilibili.com/player.html?bvid=BV1514y1s7o7&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></div>
+</p>
+<h2 id="前置准备">前置准备</h2>
+<h3 id="mac-和-linux">Mac 和 linux</h3>
+<p>需要：homebrew，git包管理，Node.js, vscode(推荐)</p>
+<p> </p>
+<p>homebrew安装：直接命令行输入</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>/bin/bash -c <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+</span></span></code></pre></div><p> </p>
+<p>git包管理：直接命令行输入</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brew install git
+</span></span></code></pre></div><p> </p>
+<p>Node.js: 下载安装包后按照默认设置安装</p>
+<p><a href="https://nodejs.org/en/download/" target="_blank" rel="noopener noreffer ">Node.js下载链接</a></p>
+<h3 id="windows">Windows</h3>
+<p>需要：git包管理，hugo预编译文件，Node.js, vscode(推荐)</p>
+<p> </p>
+<p>git包管理：点击下面链接下载后安装</p>
+<p><a href="https://github.com/git-for-windows/git/releases/download/v2.37.2.windows.2/Git-2.37.2.2-64-bit.exe" target="_blank" rel="noopener noreffer ">git包管理下载链接</a></p>
+<p> </p>
+<p>Node.js: 下载安装包后按照默认设置安装</p>
+<p><a href="https://nodejs.org/en/download/" target="_blank" rel="noopener noreffer ">Node.js下载链接</a></p>
+<h2 id="准备-hugo-环境">准备 hugo 环境</h2>
+<p>我们用hugo来写个人博客，它是一个非常快捷和友好的博客框架。</p>
+<h3 id="mac-安装方法命令行种输入">mac 安装方法：命令行种输入</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brew install hugo
+</span></span></code></pre></div><h3 id="windows安装方法">Windows安装方法</h3>
+<p>比mac要麻烦点，但是安装方法很详细。</p>
+<p><a href="https://www.gohugo.org/doc/tutorials/installing-on-windows/" target="_blank" rel="noopener noreffer ">windows版本的安装方法</a></p>
+<h2 id="学会在命令行中创建blog">学会在命令行中创建blog</h2>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw" aria-hidden="true"></i>注意！<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">每一步命令输入后按「回车键」</div>
+        </div>
+    </div>
+<p>windows：在搜索栏中输入cmd或者命令行</p>]]></description>
 </item>
 <item>
     <title>没有GPU怎么做深度学习</title>
-    <link>https://pingfan.me/posts/cs/tecent_cloud/</link>
+    <link>http://localhost:1313/posts/cs/tecent_cloud/</link>
     <pubDate>Sat, 13 Aug 2022 12:25:08 &#43;0100</pubDate>
     <author>pingfan</author>
-    <guid>https://pingfan.me/posts/cs/tecent_cloud/</guid>
-    <description><![CDATA[实验室一块GPU都没有怎么做深度学习？
-看情况，深度学习也分情况的。
-深度学习可以理解为深度神经网络进行机器学习，而深度神经网络的定义并不都是上百层才算，理论上来说，4层以上或者含有两个隐藏层的网络结构就可以称之为深度。
-如果是层数不多的情况下，CPU也是可以跑的，慢就慢点吧。
-不过在很多的情况下，比如说计算机视觉CV类型的，层数动不动几十上百层，数据集动不动几十个G甚至更大，这种情况必须得用GPU，还得好几块，同时还得搭配容量更大的内存。
-这时候除非你老板给你掏钱买机器，要么你自费买，前者得老板发善心，后者往往一下子掏不起。
-那是不是就没办法解决了，其实也有，那就是用云服务器跑深度学习。
-其实这个很好理解，不是所有人都跑过深度学习，但我相信没几个人没用过Office三件套，也就是word，excel和ppt。
-以前我们用的word都得下一个安装包很大的软件，然后打开输入；现在呢，打开office 365，里面不仅有word，还有excel，ppt，onedrive等等。
-就比如说word，完全不需要下载软件，在网页上可以直接编辑，这就意味着什么，你可以拜托掉必须要在电脑上才可以办公。
-只有有一个可以打开网页的设备，你就可以查看或者修改你的文件，同时你的文件也都保存在云端。
-这样也有巨大的好处，比如以前你出门需要带个U盘，但是忘了带或者坏了就完蛋了，但是云端的好处就是几乎不会丢，还用担心存储设备会坏掉。
-那我要说的云服务器跑深度学习也是这个道理。
-我们在本地跑深度学习的原理是什么？
-可以从这个图中看到，我们缺的就是计算资源，本地的计算资源就是GPU显卡，太贵了，买不起！
-但是计算资源是抽象的，你管它是从GPU来的，还是别的地方来的。
-这时候云计算资源就有用处了，我们可以用云计算资源来跑深度学习，只不过我们需要把数据和环境在云环境中配置一下，其余都是一样的，同时，我们还可以摆脱大块头电脑，仅仅需要一个带有浏览器的设备就可以跑深度学习。
-我用过两个云服务器跑深度学习，一个是colab，也就是google推出的那个，好处多多，但坏处有一个，也很致命，那就是我推荐给不少人之后，发现他们压根打不开，或者访问速度很慢，在国内的同学我其实不是很推荐。
-另一个就是腾讯云服务器，这个是之前搞活动的时候我看到有免费赠送的云服务器，我就去白嫖了一段时间。
-现在这个白嫖活动好像结束了，但是有类似的活动，一块钱用15天，其实也相当于是免费的。
-【腾讯云】多款云产品1折起，买云服务器送免费机器，最长免费续3个月
-https://cloud.tencent.com/act/cps/redirect?redirect=2446&cps_key=e743b84aa5dbd1d87fc3965e46050a69&from=console
-至于如何用腾讯云跑深度学习，这篇文章一步步的介绍了这个过程，包括了购买、使用以及准备深度学习的过程。]]></description>
+    <guid>http://localhost:1313/posts/cs/tecent_cloud/</guid>
+    <description><![CDATA[<p>实验室一块GPU都没有怎么做深度学习？</p>
+<p>看情况，深度学习也分情况的。</p>
+<p>深度学习可以理解为深度神经网络进行机器学习，而深度神经网络的定义并不都是上百层才算，理论上来说，4层以上或者含有两个隐藏层的网络结构就可以称之为深度。</p>
+<p>如果是层数不多的情况下，CPU也是可以跑的，慢就慢点吧。</p>
+<p>不过在很多的情况下，比如说计算机视觉CV类型的，层数动不动几十上百层，数据集动不动几十个G甚至更大，这种情况必须得用GPU，还得好几块，同时还得搭配容量更大的内存。</p>
+<p>这时候除非你老板给你掏钱买机器，要么你自费买，前者得老板发善心，后者往往一下子掏不起。</p>
+<p></p>
+<p>那是不是就没办法解决了，其实也有，那就是用云服务器跑深度学习。</p>
+<p>其实这个很好理解，不是所有人都跑过深度学习，但我相信没几个人没用过Office三件套，也就是word，excel和ppt。</p>
+<p>以前我们用的word都得下一个安装包很大的软件，然后打开输入；现在呢，打开office 365，里面不仅有word，还有excel，ppt，onedrive等等。</p>
+<p></p>
+<p>就比如说word，完全不需要下载软件，在网页上可以直接编辑，这就意味着什么，你可以拜托掉必须要在电脑上才可以办公。</p>
+<p>只有有一个可以打开网页的设备，你就可以查看或者修改你的文件，同时你的文件也都保存在云端。</p>
+<p></p>
+<p>这样也有巨大的好处，比如以前你出门需要带个U盘，但是忘了带或者坏了就完蛋了，但是云端的好处就是几乎不会丢，还用担心存储设备会坏掉。</p>
+<p>那我要说的云服务器跑深度学习也是这个道理。</p>
+<p>我们在本地跑深度学习的原理是什么？</p>
+<p>可以从这个图中看到，我们缺的就是计算资源，本地的计算资源就是GPU显卡，太贵了，买不起！</p>
+<p>但是计算资源是抽象的，你管它是从GPU来的，还是别的地方来的。</p>
+<p>这时候云计算资源就有用处了，我们可以用云计算资源来跑深度学习，只不过我们需要把数据和环境在云环境中配置一下，其余都是一样的，同时，我们还可以摆脱大块头电脑，仅仅需要一个带有浏览器的设备就可以跑深度学习。</p>
+<p></p>
+<p>我用过两个云服务器跑深度学习，一个是colab，也就是google推出的那个，好处多多，但坏处有一个，也很致命，那就是我推荐给不少人之后，发现他们压根打不开，或者访问速度很慢，在国内的同学我其实不是很推荐。</p>
+<p>另一个就是腾讯云服务器，这个是之前搞活动的时候我看到有免费赠送的云服务器，我就去白嫖了一段时间。</p>
+<p>现在这个白嫖活动好像结束了，但是有类似的活动，一块钱用15天，其实也相当于是免费的。</p>
+<p>【腾讯云】多款云产品1折起，买云服务器送免费机器，最长免费续3个月</p>
+<p><a href="https://cloud.tencent.com/act/cps/redirect?redirect=2446&amp;cps_key=e743b84aa5dbd1d87fc3965e46050a69&amp;from=console" target="_blank" rel="noopener noreffer ">https://cloud.tencent.com/act/cps/redirect?redirect=2446&cps_key=e743b84aa5dbd1d87fc3965e46050a69&from=console</a></p>
+<p>至于如何用腾讯云跑深度学习，这篇文章一步步的介绍了这个过程，包括了购买、使用以及准备深度学习的过程。</p>]]></description>
 </item>
 <item>
     <title>Latex</title>
-    <link>https://pingfan.me/posts/latex/</link>
+    <link>http://localhost:1313/posts/latex/</link>
     <pubDate>Sat, 06 Aug 2022 12:55:55 &#43;0100</pubDate>
     <author>pingfan</author>
-    <guid>https://pingfan.me/posts/latex/</guid>
-    <description><![CDATA[LaTex是一种学习难度有点高，但是学会儿了之后真香的工具。
-我们可以从以下几点比较一下：
-文件处理速度 小文件（10页以内） word： 处理速度不慢，并且可以立即显示你写的内容
-LaTex: 复杂度稍高，性价比不高，并且不如word处理小文件速度快。
-大文件 word：碰到大型文件，特别有很多图的时候处理速度很慢，并且一旦过大的时候，word可能会强退。并且在进行图片、公式、链接、引用等操作的时候，难度比 LaTex高，且排版困难。
-LaTex：非常适合处理大文件，用LaTex的话，你只需要关注你写的内容就好了，格式什么的根本不用关心，你写完就会自动生成非常精美的PDF文件。
-易用程度 word：基础的功能是非常容易使用的，基本上每个人都可以很快的用word写一个简单的文档，并且还有还可以的页面布局。但是高阶功能，比如目录、超链接、交叉引用就需要更长和更难的学习曲线了。
-LaTex：最初必须花费一些时间来学习 LaTeX，但无法立即生成一个能看的文本。不过现在已经越来越简单了，比如说overleaf就提供了非常简单但是实用的模板，可以很快的做一个简单文档。同时还需要学习一些简单的命令，比如以\开头的\cite{}。一旦你学习完这些基本的命令之后，就会比写word快得多。
-文档格式 word：基础的格式问题不大，但离专业性还是有距离的。特别是文档一旦很大，并且多人合作编写的话，格式会非常乱。比如说不一样的行间距，对齐方式等等。
-LaTex：就像之前说的，LaTex不用管布局，有很多好用的专业的格式，只需要几行代码就可以换一种风格的格式，当然你也可以自己弄一个，但是已有的就非常专业了。
-科研功能 word：引用是很大的问题，word自带的那个使用起来惨不忍睹，也正是这样，现在越来越多的期刊鼓励你用$$Latex$$而不是word了。
-LaTex：非常简单且好用，你只需要参考文献的bibtex格式，或者其他格式，就可以\cite{文献}，自动生成参考文献列表。
-价格 word：正版不便宜，并且版本问题也很大，比如说你的word文件拿到学校的打印室的老版本word，可能有些地方就会显示有误，比如公式等。
-LaTex：完全免费，之前需要安装软件，现在overleaf，直接网页打开，自动保存，手机都可以编辑。
-overleaf工具推荐 表格和公式在别的地方编辑比latex本身要快一点。
-overleaf工具推荐
-overleaf使用中文的方法 建议overleaf空白文档 点击menu，并且将 $$latex$$编译器设置为XeLaTex 在latex文档中添加ctex包，具体方法为\usepackage{ctex} 点击编辑，亲测没问题 overleaf 简单介绍 标题作者 加粗、斜体和下划线 添加图片 创建列表 章节和分段 创建表格 标题、标签和引用 ]]></description>
+    <guid>http://localhost:1313/posts/latex/</guid>
+    <description><![CDATA[<p>LaTex是一种学习难度有点高，但是学会儿了之后真香的工具。</p>
+<p>我们可以从以下几点比较一下：</p>
+<h1 id="文件处理速度">文件处理速度</h1>
+<h3 id="小文件10页以内">小文件（10页以内）</h3>
+<p>word： 处理速度不慢，并且可以立即显示你写的内容</p>
+<p>LaTex: 复杂度稍高，性价比不高，并且不如word处理小文件速度快。</p>
+<h3 id="大文件">大文件</h3>
+<p>word：碰到大型文件，特别有很多图的时候处理速度很慢，并且一旦过大的时候，word可能会强退。并且在进行图片、公式、链接、引用等操作的时候，难度比 LaTex高，且排版困难。</p>
+<p>LaTex：非常适合处理大文件，用LaTex的话，你只需要关注你写的内容就好了，格式什么的根本不用关心，你写完就会自动生成非常精美的PDF文件。</p>
+<h1 id="易用程度">易用程度</h1>
+<p>word：基础的功能是非常容易使用的，基本上每个人都可以很快的用word写一个简单的文档，并且还有还可以的页面布局。但是高阶功能，比如目录、超链接、交叉引用就需要更长和更难的学习曲线了。</p>
+<p>LaTex：最初必须花费一些时间来学习 LaTeX，但无法立即生成一个能看的文本。不过现在已经越来越简单了，比如说overleaf就提供了非常简单但是实用的模板，可以很快的做一个简单文档。同时还需要学习一些简单的<strong>命令</strong>，比如以\开头的\cite{}。一旦你学习完这些基本的命令之后，就会比写word快得多。</p>
+<h1 id="文档格式">文档格式</h1>
+<p>word：基础的格式问题不大，但离专业性还是有距离的。特别是文档一旦很大，并且多人合作编写的话，格式会非常乱。比如说不一样的行间距，对齐方式等等。</p>
+<p>LaTex：就像之前说的，LaTex不用管布局，有很多好用的专业的格式，只需要几行代码就可以换一种风格的格式，当然你也可以自己弄一个，但是已有的就非常专业了。</p>
+<h1 id="科研功能">科研功能</h1>
+<p>word：引用是很大的问题，word自带的那个使用起来惨不忍睹，也正是这样，现在越来越多的期刊鼓励你用$$Latex$$而不是word了。</p>
+<p>LaTex：非常简单且好用，你只需要参考文献的bibtex格式，或者其他格式，就可以\cite{文献}，自动生成参考文献列表。</p>
+<h1 id="价格">价格</h1>
+<p>word：正版不便宜，并且版本问题也很大，比如说你的word文件拿到学校的打印室的老版本word，可能有些地方就会显示有误，比如公式等。</p>
+<p>LaTex：完全免费，之前需要安装软件，现在overleaf，直接网页打开，自动保存，手机都可以编辑。</p>
+<h1 id="overleaf工具推荐">overleaf工具推荐</h1>
+<p>表格和公式在别的地方编辑比latex本身要快一点。</p>
+<p><a href="https://zhuanlan.zhihu.com/p/362505439" target="_blank" rel="noopener noreffer ">overleaf工具推荐</a></p>
+<h1 id="overleaf使用中文的方法">overleaf使用中文的方法</h1>
+<ol>
+<li>建议overleaf空白文档</li>
+<li>点击menu，并且将 $$latex$$编译器设置为XeLaTex</li>
+<li>在latex文档中添加ctex包，具体方法为\usepackage{ctex}</li>
+<li>点击编辑，亲测没问题</li>
+</ol>
+<h1 id="overleaf-简单介绍">overleaf 简单介绍</h1>
+<h4 id="标题作者">标题作者</h4>
+<h2 id="加粗斜体和下划线">加粗、斜体和下划线</h2>
+<h2 id="添加图片">添加图片</h2>
+<h2 id="创建列表">创建列表</h2>
+<h2 id="章节和分段">章节和分段</h2>
+<h2 id="创建表格">创建表格</h2>
+<h2 id="标题标签和引用">标题、标签和引用</h2>]]></description>
 </item>
 </channel>
 </rss>

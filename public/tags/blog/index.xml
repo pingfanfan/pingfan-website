@@ -1,41 +1,65 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Blog - Tag - Pingfan&#39;s blog</title>
-        <link>https://pingfan.me/tags/blog/</link>
+        <link>http://localhost:1313/tags/blog/</link>
         <description>Blog - Tag - Pingfan&#39;s blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 22 Aug 2022 17:19:48 &#43;0100</lastBuildDate><atom:link href="https://pingfan.me/tags/blog/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 22 Aug 2022 17:19:48 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/tags/blog/" rel="self" type="application/rss+xml" /><item>
     <title>如何零基础零费用的在30分钟内创建一个专属于你的个人博客</title>
-    <link>https://pingfan.me/posts/cs/create_blog_with_zero_experience/</link>
+    <link>http://localhost:1313/posts/cs/create_blog_with_zero_experience/</link>
     <pubDate>Mon, 22 Aug 2022 17:19:48 &#43;0100</pubDate>
     <author>pingfan</author>
-    <guid>https://pingfan.me/posts/cs/create_blog_with_zero_experience/</guid>
-    <description><![CDATA[写这篇文章的原因是在网上看了很多的教程，踩了不少的坑，更多的白费了很多功夫，也没找到一篇从头到尾完整有效的个人建站方法。
-有些教程年代久远，有些教程极为繁琐，有些教程压根跑不通。
-为了方便自己，做个记录，也方便大家，在这个人人都可以发声的时代，又感觉人人的喉咙都被扼住了。
-虽然大家在各个媒体平台都有自己的账号，但是给自己留一份自己的自留地，貌似也不会是什么坏事。
-这也是我建个人博客的最主要理由，因为有些东西因为这样的或者那样的原因，无法在公域平台发布，那么自己的博客网站，总可以容纳的下。
-建立个人博客的两个方法 这是一套非常简单的方法，我希望可以让每一个人都可以照着这套方法建立自己的博客。
-总共分为两个版本：
-第一个版本为通用版本，利用云服务器的host功能，一个月仅需要花费一杯咖啡的钱。
-第二个版本为github版本，利用github pages的免费host和自动部署功能，不需要花一分钱就可以拥有自己的博客。
-视频版本： 前置准备 Mac 和 linux 需要：homebrew，git包管理，Node.js, vscode(推荐)
-homebrew安装：直接命令行输入
-/bin/bash -c &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&#34; git包管理：直接命令行输入
-brew install git Node.js: 下载安装包后按照默认设置安装
-Node.js下载链接
-Windows 需要：git包管理，hugo预编译文件，Node.js, vscode(推荐)
-git包管理：点击下面链接下载后安装
-git包管理下载链接
-Node.js: 下载安装包后按照默认设置安装
-Node.js下载链接
-准备 hugo 环境 我们用hugo来写个人博客，它是一个非常快捷和友好的博客框架。
-mac 安装方法：命令行种输入 brew install hugo Windows安装方法 比mac要麻烦点，但是安装方法很详细。
-windows版本的安装方法
-学会在命令行中创建blog 注意！ 每一步命令输入后按「回车键」 windows：在搜索栏中输入cmd或者命令行
-mac：找到Terminal
-正文正式开始 使用hugo创建一个blog项目 创建一个新的blog 使用命令hugo new site来创建一个博客，pingfan-blog这个名字可以根据自己的需要改
-hugo new site pingfan-blog 进入刚刚创建好的博客文件夹中 在命令行中使用cd命令
-cd pingfan-blog 给博客加个皮肤，一次复制+粘贴三行代码到命令行中 第一行：把当前目录进行github仓库的初始化]]></description>
+    <guid>http://localhost:1313/posts/cs/create_blog_with_zero_experience/</guid>
+    <description><![CDATA[<!-- raw HTML omitted -->
+<p>写这篇文章的原因是在网上看了很多的教程，踩了不少的坑，更多的白费了很多功夫，也没找到一篇从头到尾完整有效的个人建站方法。</p>
+<p>有些教程年代久远，有些教程极为繁琐，有些教程压根跑不通。</p>
+<p>为了方便自己，做个记录，也方便大家，在这个人人都可以发声的时代，又感觉人人的喉咙都被扼住了。</p>
+<p>虽然大家在各个媒体平台都有自己的账号，但是给自己留一份自己的自留地，貌似也不会是什么坏事。</p>
+<p>这也是我建个人博客的最主要理由，因为有些东西因为这样的或者那样的原因，无法在公域平台发布，那么自己的博客网站，总可以容纳的下。</p>
+<h1 id="建立个人博客的两个方法">建立个人博客的两个方法</h1>
+<p>这是一套非常简单的方法，我希望可以让每一个人都可以照着这套方法建立自己的博客。</p>
+<p>总共分为两个版本：</p>
+<p>第一个版本为通用版本，利用云服务器的host功能，一个月仅需要花费一杯咖啡的钱。</p>
+<p>第二个版本为github版本，利用github pages的免费host和自动部署功能，不需要花一分钱就可以拥有自己的博客。</p>
+<p>视频版本：
+<div class="bilibili"><iframe src="//player.bilibili.com/player.html?bvid=BV1514y1s7o7&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></div>
+</p>
+<h2 id="前置准备">前置准备</h2>
+<h3 id="mac-和-linux">Mac 和 linux</h3>
+<p>需要：homebrew，git包管理，Node.js, vscode(推荐)</p>
+<p> </p>
+<p>homebrew安装：直接命令行输入</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>/bin/bash -c <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+</span></span></code></pre></div><p> </p>
+<p>git包管理：直接命令行输入</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brew install git
+</span></span></code></pre></div><p> </p>
+<p>Node.js: 下载安装包后按照默认设置安装</p>
+<p><a href="https://nodejs.org/en/download/" target="_blank" rel="noopener noreffer ">Node.js下载链接</a></p>
+<h3 id="windows">Windows</h3>
+<p>需要：git包管理，hugo预编译文件，Node.js, vscode(推荐)</p>
+<p> </p>
+<p>git包管理：点击下面链接下载后安装</p>
+<p><a href="https://github.com/git-for-windows/git/releases/download/v2.37.2.windows.2/Git-2.37.2.2-64-bit.exe" target="_blank" rel="noopener noreffer ">git包管理下载链接</a></p>
+<p> </p>
+<p>Node.js: 下载安装包后按照默认设置安装</p>
+<p><a href="https://nodejs.org/en/download/" target="_blank" rel="noopener noreffer ">Node.js下载链接</a></p>
+<h2 id="准备-hugo-环境">准备 hugo 环境</h2>
+<p>我们用hugo来写个人博客，它是一个非常快捷和友好的博客框架。</p>
+<h3 id="mac-安装方法命令行种输入">mac 安装方法：命令行种输入</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brew install hugo
+</span></span></code></pre></div><h3 id="windows安装方法">Windows安装方法</h3>
+<p>比mac要麻烦点，但是安装方法很详细。</p>
+<p><a href="https://www.gohugo.org/doc/tutorials/installing-on-windows/" target="_blank" rel="noopener noreffer ">windows版本的安装方法</a></p>
+<h2 id="学会在命令行中创建blog">学会在命令行中创建blog</h2>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw" aria-hidden="true"></i>注意！<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">每一步命令输入后按「回车键」</div>
+        </div>
+    </div>
+<p>windows：在搜索栏中输入cmd或者命令行</p>]]></description>
 </item>
 </channel>
 </rss>

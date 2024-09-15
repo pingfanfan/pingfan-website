@@ -1,0 +1,22 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Diary - Category - Pingfan&#39;s blog</title>
+        <link>http://localhost:1313/categories/diary/</link>
+        <description>Diary - Category - Pingfan&#39;s blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 02 Jan 2023 14:44:55 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/categories/diary/" rel="self" type="application/rss+xml" /><item>
+    <title>02 Jan 2023</title>
+    <link>http://localhost:1313/diary/02-jan-2023/</link>
+    <pubDate>Mon, 02 Jan 2023 14:44:55 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://localhost:1313/diary/02-jan-2023/</guid>
+    <description><![CDATA[<ol>
+<li>Python(1 hour) educative.io ace python interview</li>
+<li>English(100/20000) 一辈子够用的英语万用单词20000</li>
+<li>driver license 1 hour</li>
+<li>Job 1 hour</li>
+<li>freelancer writing 1 hour</li>
+<li>research &amp; thesis 4 hour</li>
+</ol>]]></description>
+</item>
+</channel>
+</rss>
