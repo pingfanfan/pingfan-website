@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Hugo - Tag - Pingfan&#39;s blog</title>
-        <link>http://localhost:57944/tags/hugo/</link>
+        <link>http://localhost:59157/tags/hugo/</link>
         <description>Hugo - Tag - Pingfan&#39;s blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 22 Aug 2022 17:19:48 &#43;0100</lastBuildDate><atom:link href="http://localhost:57944/tags/hugo/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 22 Aug 2022 17:19:48 &#43;0100</lastBuildDate><atom:link href="http://localhost:59157/tags/hugo/" rel="self" type="application/rss+xml" /><item>
     <title>如何零基础零费用的在30分钟内创建一个专属于你的个人博客</title>
-    <link>http://localhost:57944/posts/cs/create_blog_with_zero_experience/</link>
+    <link>http://localhost:59157/posts/cs/create_blog_with_zero_experience/</link>
     <pubDate>Mon, 22 Aug 2022 17:19:48 &#43;0100</pubDate>
     <author>pingfan</author>
-    <guid>http://localhost:57944/posts/cs/create_blog_with_zero_experience/</guid>
+    <guid>http://localhost:59157/posts/cs/create_blog_with_zero_experience/</guid>
     <description><![CDATA[<!-- raw HTML omitted -->
 <p>写这篇文章的原因是在网上看了很多的教程，踩了不少的坑，更多的白费了很多功夫，也没找到一篇从头到尾完整有效的个人建站方法。</p>
 <p>有些教程年代久远，有些教程极为繁琐，有些教程压根跑不通。</p>
@@ -20,9 +20,6 @@
 <p>总共分为两个版本：</p>
 <p>第一个版本为通用版本，利用云服务器的host功能，一个月仅需要花费一杯咖啡的钱。</p>
 <p>第二个版本为github版本，利用github pages的免费host和自动部署功能，不需要花一分钱就可以拥有自己的博客。</p>
-<p>视频版本：
-<div class="bilibili"><iframe src="//player.bilibili.com/player.html?bvid=BV1514y1s7o7&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></div>
-</p>
 <h2 id="前置准备">前置准备</h2>
 <h3 id="mac-和-linux">Mac 和 linux</h3>
 <p>需要：homebrew，git包管理，Node.js, vscode(推荐)</p>
