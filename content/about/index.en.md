@@ -13,7 +13,7 @@ math:
 ---
 
 
-知乎：[平凡](https://www.zhihu.com/people/jzwa)
+知乎：[1平凡](https://www.zhihu.com/people/jzwa)
 
 b站：[平凡pppf](https://space.bilibili.com/37552982)
 
