@@ -31,8 +31,8 @@ categories: ["Blog"]
 第二个版本为github版本，利用github pages的免费host和自动部署功能，不需要花一分钱就可以拥有自己的博客。
 
 
-视频版本：
-{{< bilibili id=BV1514y1s7o7 >}}
+<!-- 视频版本：
+{{< bilibili id=BV1514y1s7o7 >}} -->
 
 
 ## 前置准备
