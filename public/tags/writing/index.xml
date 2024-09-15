@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Writing - Tag - Pingfan&#39;s blog</title>
-        <link>http://localhost:59157/tags/writing/</link>
+        <link>https://pingfan.me/tags/writing/</link>
         <description>Writing - Tag - Pingfan&#39;s blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 06 Aug 2022 12:55:55 &#43;0100</lastBuildDate><atom:link href="http://localhost:59157/tags/writing/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 06 Aug 2022 12:55:55 &#43;0100</lastBuildDate><atom:link href="https://pingfan.me/tags/writing/" rel="self" type="application/rss+xml" /><item>
     <title>Latex</title>
-    <link>http://localhost:59157/posts/latex/</link>
+    <link>https://pingfan.me/posts/latex/</link>
     <pubDate>Sat, 06 Aug 2022 12:55:55 &#43;0100</pubDate>
     <author>pingfan</author>
-    <guid>http://localhost:59157/posts/latex/</guid>
+    <guid>https://pingfan.me/posts/latex/</guid>
     <description><![CDATA[<p>LaTex是一种学习难度有点高，但是学会儿了之后真香的工具。</p>
 <p>我们可以从以下几点比较一下：</p>
 <h1 id="文件处理速度">文件处理速度</h1>
