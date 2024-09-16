@@ -1,7 +1,7 @@
 ---
 title: "如何零基础零费用的在30分钟内创建一个专属于你的个人博客"
 date: 2022-08-22T17:19:48+01:00
-draft: false
+draft: true
 author: pingfan
 tags: ["Blog", "Hugo","Cloud"]
 categories: ["Blog"]
