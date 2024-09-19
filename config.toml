@@ -8,7 +8,10 @@ description = "这是我的全新 Hugo 网站"
   tag = "tags"
   category = "categories"
 
-
+[params]
+  # 在这里添加新的设置
+  vercelAnalytics = true
+  
 [params.header.title]
       # URL of the LOGO
       # LOGO 的 URL

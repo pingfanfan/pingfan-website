@@ -12,22 +12,6 @@
     <description><![CDATA[]]></description>
 </item>
 <item>
-    <title>Blog</title>
-    <link>http://localhost:1313/categories/blog/</link>
-    <pubDate>Mon, 22 Aug 2022 17:19:48 &#43;0100</pubDate>
-    <author>Author</author>
-    <guid>http://localhost:1313/categories/blog/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Computer Science</title>
-    <link>http://localhost:1313/categories/computer-science/</link>
-    <pubDate>Sat, 13 Aug 2022 12:25:08 &#43;0100</pubDate>
-    <author>Author</author>
-    <guid>http://localhost:1313/categories/computer-science/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
     <title>LaTex</title>
     <link>http://localhost:1313/categories/latex/</link>
     <pubDate>Sat, 06 Aug 2022 12:55:55 &#43;0100</pubDate>
